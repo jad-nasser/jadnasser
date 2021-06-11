@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23ea736c.chunk.css",
+    "main.js": "/static/js/main.eab21d22.chunk.js",
+    "main.js.map": "/static/js/main.eab21d22.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dec04757.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dec04757.js.map",
+    "static/js/2.23890590.chunk.js": "/static/js/2.23890590.chunk.js",
+    "static/js/2.23890590.chunk.js.map": "/static/js/2.23890590.chunk.js.map",
+    "static/js/3.3b4b235e.chunk.js": "/static/js/3.3b4b235e.chunk.js",
+    "static/js/3.3b4b235e.chunk.js.map": "/static/js/3.3b4b235e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.23ea736c.chunk.css.map": "/static/css/main.23ea736c.chunk.css.map",
+    "static/js/2.23890590.chunk.js.LICENSE.txt": "/static/js/2.23890590.chunk.js.LICENSE.txt",
+    "static/media/Rectangle 3(1).47599355.png": "/static/media/Rectangle 3(1).47599355.png",
+    "static/media/Rectangle 3(2).bd1813fb.png": "/static/media/Rectangle 3(2).bd1813fb.png",
+    "static/media/Rectangle 3(3).80020e72.png": "/static/media/Rectangle 3(3).80020e72.png",
+    "static/media/Rectangle 3(4).e0b85a8b.png": "/static/media/Rectangle 3(4).e0b85a8b.png",
+    "static/media/App.css": "/static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.8faf1036.png",
+    "static/media/eduardo-dutra-Kqjc3vvgl1k-unsplash.ecee00d6.png": "/static/media/eduardo-dutra-Kqjc3vvgl1k-unsplash.ecee00d6.png",
+    "static/media/eduardo-dutra-k6b53YWZI9I-unsplash-crp.78da6ec4.png": "/static/media/eduardo-dutra-k6b53YWZI9I-unsplash-crp.78da6ec4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dec04757.js",
+    "static/js/2.23890590.chunk.js",
+    "static/css/main.23ea736c.chunk.css",
+    "static/js/main.eab21d22.chunk.js"
+  ]
+}
