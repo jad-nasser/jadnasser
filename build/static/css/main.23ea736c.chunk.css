@@ -280,7 +280,7 @@ header {
 .my-services {
   background-color: #303030;
   background-color: var(--clr-dark);
-  background-image: url(./static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.8faf1036.png);
+  background-image: url(../media/christopher-gower-m_HRfLhgABo-unsplash@2x.8faf1036.png);
   background-size: cover;
   color: #fff;
   color: var(--clr-light);
