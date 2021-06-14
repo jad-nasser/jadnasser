@@ -1,11 +1,19 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import about_me_pic from '../imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
+
 import intro_pic from '../imgs/eduardo-dutra-k6b53YWZI9I-unsplash-crp.png';
+import about_me_pic from '../imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
 import project1_pic from '../imgs/Rectangle 3(1).png';
 import project2_pic from '../imgs/Rectangle 3(2).png';
 import project3_pic from '../imgs/Rectangle 3(3).png';
 import project4_pic from '../imgs/Rectangle 3(4).png';
+
+/*var intro_pic=process.env.PUBLIC_URL+'/imgs/eduardo-dutra-k6b53YWZI9I-unsplash-crp.png';
+var about_me_pic=process.env.PUBLIC_URL+'/imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
+var project1_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(1).png';
+var project2_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(2).png';
+var project3_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(3).png';
+var project4_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(4).png';*/
 
 function template() {
   return (

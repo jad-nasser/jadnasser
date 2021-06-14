@@ -22,6 +22,8 @@ class Project extends React.Component {
       });
   
     });
+
+    document.getElementById("top").scrollIntoView();
      
   }
 }

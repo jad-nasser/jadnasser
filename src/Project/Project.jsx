@@ -1,13 +1,17 @@
 import "./Project.css";
 import React from "react";
 import {Link} from 'react-router-dom';
+
 import project_small_pic from '../imgs/Rectangle 3(1).png';
 import project_large_pic from '../imgs/christopher-gower-m_HRfLhgABo-unsplash@2x.png';
+
+/*var project_small_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(1).png';
+var project_large_pic=process.env.PUBLIC_URL+'/imgs/christopher-gower-m_HRfLhgABo-unsplash@2x.png';*/
 
 function template() {
 
   var navigation=(
-    <header>
+    <header id="top">
     <button className="nav-toggle" aria-label="toggle navigation">
       <span className="hamburger"></span>
     </button>
