@@ -5,18 +5,18 @@ import Main from './Main';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route path="/project 1">
+        <Route path="/project_1">
           <Project name="project 1" />
         </Route>
-        <Route path="/project 2">
+        <Route path="/project_2">
           <Project name="project 2" />
         </Route>
-        <Route path="/project 3">
+        <Route path="/project_3">
           <Project name="project 3" />
         </Route>
-        <Route path="/project 4">
+        <Route path="/project_4">
           <Project name="project 4" />
         </Route>
         <Route path="/services">
