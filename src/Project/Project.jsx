@@ -17,9 +17,9 @@ function template() {
     </button>
     <nav className="nav">
       <ul className="nav__list">
-        <li className="nav__item"><Link to="/" className="nav__link">Home</Link></li>
+        <li className="nav__item"><Link to="jadnasser/build/index.html" className="nav__link">Home</Link></li>
         <li className="nav__item"><Link to="/services" className="nav__link">My Services</Link></li>
-        <li className="nav__item"><Link to="/about" className="nav__link">About Me</Link></li>
+        <li className="nav__item"><Link to="jadnasser/build/index.html#about" className="nav__link">About Me</Link></li>
         <li className="nav__item"><Link to="/work" className="nav__link">My Work</Link></li>
       </ul>
     </nav>
@@ -47,7 +47,7 @@ function template() {
   var profile=(<div></div>);
   var body=(<div></div>);
 
-  if(this.props.name==="project 1"){
+  if(this.props.name==="project_1"){
 
     profile=(
       <section className="intro">
@@ -70,7 +70,7 @@ function template() {
 
   }
 
-  else if(this.props.name==="project 2"){
+  else if(this.props.name==="project_2"){
     
     profile=(
       <section className="intro">
@@ -93,7 +93,7 @@ function template() {
 
   }
 
-  else if(this.props.name==="project 3"){
+  else if(this.props.name==="project_3"){
     
     profile=(
       <section className="intro">

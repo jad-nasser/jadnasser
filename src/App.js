@@ -5,30 +5,30 @@ import Main from './Main';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Switch>
-        <Route path="/project_1">
-          <Project name="project 1" />
+        <Route path="jadnasser/build/project_1">
+          <Project name="project_1" />
         </Route>
-        <Route path="/project_2">
-          <Project name="project 2" />
+        <Route path="jadnasser/build/project_2">
+          <Project name="project_2" />
         </Route>
-        <Route path="/project_3">
-          <Project name="project 3" />
+        <Route path="jadnasser/build/project_3">
+          <Project name="project_3" />
         </Route>
-        <Route path="/project_4">
-          <Project name="project 4" />
+        <Route path="jadnasser/build/project_4">
+          <Project name="project_4" />
         </Route>
         <Route path="/services">
           <Main goTo="services" />
         </Route>
-        <Route path="/about">
+        <Route path="jadnasser/build/index.html/#about">
           <Main goTo="about" />
         </Route>
         <Route path="/work">
           <Main goTo="work" />
         </Route>
-        <Route path="/">
+        <Route path="jadnasser/build/index.html">
           <Main />
         </Route>
       </Switch>
