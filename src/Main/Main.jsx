@@ -108,22 +108,22 @@ function template() {
 
         <div className="portfolio">
           {/* portfolio item 1 */}
-          <Link className="portfolio__item" to="/jadnasser/build/project_1">
+          <Link className="portfolio__item" to="/project-1">
             <img src={project1_pic} alt="project 1" className="portfolio__img"></img>
           </Link>
 
           {/* portfolio item 2 */}
-          <Link className="portfolio__item" to="/jadnasser/build/project_2">
+          <Link className="portfolio__item" to="/project-2">
             <img src={project2_pic} alt="project 2" className="portfolio__img"></img>
           </Link>
 
           {/* portfolio item 3 */}
-          <Link className="portfolio__item" to="/jadnasser/build/project_3">
+          <Link className="portfolio__item" to="/project-3">
             <img src={project3_pic} alt="project 3" className="portfolio__img"></img>
           </Link>
 
           {/* portfolio item 4 */}
-          <Link className="portfolio__item" to="/jadnasser/build/project_4">
+          <Link className="portfolio__item" to="/project-4">
             <img src={project4_pic} alt="project 4" className="portfolio__img"></img>
           </Link>
         </div>

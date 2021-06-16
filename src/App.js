@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import Project from './Project';
 import Main from './Main';
 
@@ -7,32 +7,31 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/jadnasser/build/project_1">
+        <Route path="/project-1">
           <Project name="project_1" />
         </Route>
-        <Route path="/jadnasser/build/project_2">
+        <Route path="/project-2">
           <Project name="project_2" />
         </Route>
-        <Route path="/jadnasser/build/project_3">
+        <Route path="/project-3">
           <Project name="project_3" />
         </Route>
-        <Route path="/jadnasser/build/project_4">
+        <Route path="/project-4">
           <Project name="project_4" />
         </Route>
         <Route path="/services">
           <Main goTo="services" />
         </Route>
-        <Route path="/jadnasser/build/index.html/#about">
+        <Route path="/about">
           <Main goTo="about" />
         </Route>
         <Route path="/work">
           <Main goTo="work" />
         </Route>
-        <Route path="/jadnasser/build/index.html">
+        <Route path="/">
           <Main />
         </Route>
       </Switch>
-      <Redirect to="/jadnasser/build/index.html" />
     </Router>
   );
 }
