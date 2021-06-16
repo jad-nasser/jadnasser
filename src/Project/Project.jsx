@@ -17,9 +17,9 @@ function template() {
     </button>
     <nav className="nav">
       <ul className="nav__list">
-        <li className="nav__item"><Link to="jadnasser/build/index.html" className="nav__link">Home</Link></li>
+        <li className="nav__item"><Link to="/jadnasser/build/index.html" className="nav__link">Home</Link></li>
         <li className="nav__item"><Link to="/services" className="nav__link">My Services</Link></li>
-        <li className="nav__item"><Link to="jadnasser/build/index.html#about" className="nav__link">About Me</Link></li>
+        <li className="nav__item"><Link to="/jadnasser/build/index.html#about" className="nav__link">About Me</Link></li>
         <li className="nav__item"><Link to="/work" className="nav__link">My Work</Link></li>
       </ul>
     </nav>
