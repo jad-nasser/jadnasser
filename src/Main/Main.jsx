@@ -18,6 +18,7 @@ var project4_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(4).png';*/
 function template() {
   return (
     <div className="main">
+      <div className="top-page">
       <h1>This site is still under constructions</h1>
       <header>
         <button className="nav-toggle" aria-label="toggle navigation">
@@ -32,16 +33,19 @@ function template() {
           </ul>
         </nav>
       </header>
+      
 
       {/* Intoduction */}
       <section className="intro" id="home">
-        <h1 className="section__title section__title--intro">
-        Hi, I am <strong>Jad Nasser</strong>
-        </h1>
-        <p className="section__subtitle section__subtitle--intro">Junior Developer & Software Engineer</p>
+        <div className="img-and-title">
         <img src={intro_pic} alt="Intro" className="intro__img"></img>
+        <h1 className="section__title section__title--intro">
+        Hi, I am <strong className="gold-gradient">Jad</strong> <strong className="white-gradient">Nasser</strong>
+        </h1>
+        </div>
+        <h2 className="section__subtitle section__subtitle--intro">Junior Developer & Software Engineer</h2>
       </section>
-
+      </div>
 
       {/* My Services */}
       <section className="my-services" id="services">

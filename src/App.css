@@ -15,7 +15,7 @@
 
   --clr-light: #fff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #3299ff;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -43,6 +43,8 @@ html {
 
 body {
   background: var(--clr-light);
+  /*background: #d8d8d8;*/
+  background-image: linear-gradient(to bottom right, white, #f0dede);
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
@@ -59,6 +61,16 @@ img {
   max-width: 100%;
 }
 
+.intro__img {
+  border-radius: 300px;
+  width: 50%;
+  margin-right: 1em;
+}
+
+.about-me__img {
+  border-radius: 5px;
+}
+
 strong {
   font-weight: var(--fw-bold);
 }
@@ -66,6 +78,10 @@ strong {
 :focus {
   outline: 3px solid var(--clr-accent);
   outline-offset: 3px;
+}
+
+.nav-toggle:focus {
+  outline: 3px solid white;
 }
 
 /* Buttons */
@@ -82,6 +98,7 @@ strong {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -126,16 +143,48 @@ h3 {
 
 .section__subtitle--intro,
 .section__subtitle--about {
-  background: var(--clr-accent);
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
+  border-radius: 2.5px;
+}
+
+.section__subtitle--about {
+  background: var(--clr-accent);
 }
 
 .section__subtitle--work {
-  color: var(--clr-accent);
+  color: var(--clr-light);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
+}
+
+.gold-gradient {
+  /*background: linear-gradient(to right, #7f6b00, #b29600);*/
+  background-image: linear-gradient(to right, #b29600, #e5c100);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/*.blue-gradient {
+  background-image: linear-gradient(to right, #0080ff, #3299ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}*/
+
+.white-gradient {
+  background-image: linear-gradient(to right, white, #b2b2b2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /* header */
@@ -144,10 +193,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-}
-
-.logo {
-  max-width: 100px;
 }
 
 .nav {
@@ -198,7 +243,7 @@ header {
 }
 
 .nav-open .nav {
-  transform: translateX(0);
+  transform: translateX(0%);
 }
 
 .nav-open .nav-toggle {
@@ -225,7 +270,8 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-accent);
+  /*background: var(--clr-accent);*/
+  background: white;
   width: 2em;
   height: 3px;
   border-radius: 1em;
@@ -249,6 +295,17 @@ header {
 
 /*  Intro section  */
 
+.top-page {
+  background-image: linear-gradient(to bottom right, #0080ff, #3299ff);
+  /*background-image: linear-gradient(to bottom right, #0080ff, #7ab6f1);*/
+  color: white;
+}
+
+.img-and-title {
+  display: flex;
+  margin-bottom: 1em;
+}
+
 .intro {
   position: relative;
 }
@@ -259,6 +316,9 @@ header {
 
 .section__subtitle--intro {
   display: inline-block;
+  color: white;
+  /*font-weight: var(--fw-bold);*/
+  /* font-size: 1.5em;*/
 }
 
 @media (min-width: 600px) {
@@ -284,10 +344,10 @@ header {
     align-self: start;
     grid-column: -1 / 1;
     grid-row: 2;
-    text-align: right;
+    text-align: center;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 1.5em);
+    width: calc(100% + 4em);
   }
 }
 
@@ -383,23 +443,33 @@ header {
 /* My Work */
 
 .my-work {
-  background-color: var(--clr-dark);
+  background-image: linear-gradient(to bottom right, #0080ff, #3299ff);
+  /*background-color: var(--clr-dark);*/
   color: var(--clr-light);
   text-align: center;
 }
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  justify-content: center;
 }
 
 .portfolio__item {
   background: var(--clr-accent);
   overflow: hidden;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  /*width: max-content;*/
 }
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  border-radius: 5px;
+  /*height: 100%;
+  width: 100%;
+  object-fit: contain;*/
 }
 
 .portfolio__item:focus {
