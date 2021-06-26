@@ -85,23 +85,29 @@ function template() {
 
       {/* About Me */}
       <section className="about-me" id="about">
+        <div className="about-me__title-and-body">
         <h2 className="section__title section__title--about">Who I Am</h2>
-        <p className="section__subtitle section__subtitle--about">Developer & Software Engineer</p>
-
+        
+        {/*<p className="section__subtitle section__subtitle--about">Developer & Software Engineer</p>*/}
         <div className="about-me__body">
-          <p>
-            orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+          <p className="about-me__paragraph about-me__paragraph1">
+            p1orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
             laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-          <p>
-            orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+          <img src={about_me_pic} alt="About Me" className="about-me__img"></img>
+          <p className="about-me__paragraph about-me__paragraph2">
+            p2Forem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
             laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p className="about-me__paragraph about-me__paragraph3">
+            Having built a musical culture around headphones, Sony had the vision to reproduce the finest 
+            details of sound with a minimally sized component. Mobilizing Sony’s long history of analog 
+            and digital technologies for reproducing high-quality sound, we worked hard to design a line.
           </p>
         </div>
-
-        <img src={about_me_pic} alt="About Me" className="about-me__img"></img>
+        </div>
       </section>
 
 
@@ -136,7 +142,6 @@ function template() {
 
       {/* footer */}
       <footer className="footer">
-        <a className="footer__link" href="mailto:jadnasser.official@gmail.com">jadnasser.official@gmail.com</a>
         <ul className="social-list">
           <li className="social-list__item">
             <a className="social-list__link" href="https://www.google.com">
@@ -149,6 +154,11 @@ function template() {
             </a>
           </li>
         </ul>
+        <a className="footer__link" href="mailto:jadnasser.official@gmail.com">jadnasser.official@gmail.com</a>
+        <div className="address-and-phone">
+          <p className="address">Hamra Street, Beirut, Lebanon</p>
+          <p>+961 81 747098</p>
+        </div>
       </footer>
     </div>
   );
