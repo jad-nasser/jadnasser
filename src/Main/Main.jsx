@@ -19,7 +19,7 @@ function template() {
   return (
     <div className="main">
       <div className="top-page">
-      <h1>This site is still under constructions</h1>
+      {/*<h1>This site is still under constructions</h1>*/}
       <header>
         <button className="nav-toggle" aria-label="toggle navigation">
           <span className="hamburger"></span>
@@ -157,7 +157,7 @@ function template() {
         <a className="footer__link" href="mailto:jadnasser.official@gmail.com">jadnasser.official@gmail.com</a>
         <div className="address-and-phone">
           <p className="address">Hamra Street, Beirut, Lebanon</p>
-          <p>+961 81 747098</p>
+          <p className="phone">+961 81 747098</p>
         </div>
       </footer>
     </div>

@@ -550,8 +550,9 @@ header {
   /*background: #111;*/
   color: var(--clr-accent);
   text-align: center;
-  padding: 2.5em 0;
+  padding: 0.5em 0;
   font-size: var(--fs-body);
+  background: rgb(221, 222, 223);
 }
 
 .footer a {
@@ -576,8 +577,12 @@ header {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 2em 0 0;
-  padding: 0;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: 1em;
+  margin-bottom: 0;
+  /*margin: 1em 0 0;*/
+  /*padding: 0.2em 0;*/
 }
 
 .social-list__item {
@@ -585,9 +590,9 @@ header {
   font-size: var(--fs-h3);
 }
 
-.social-list__link {
+/*.social-list__link {
   padding: 0.5em;
-}
+}*/
 
 .address-and-phone {
   color: var(--clr-dark);
@@ -596,8 +601,15 @@ header {
   margin-left: 1em;
   margin-right: 1em;
   font-weight: var(--fw-bold);
+  padding: 0;
+  margin-top: 0.2em;
 }
 
 .address {
   margin-right: 2em;
+  margin-top: 0;
+}
+
+.phone {
+  margin-top: 0;
 }
