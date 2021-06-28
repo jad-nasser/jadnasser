@@ -21,13 +21,14 @@ function template() {
         <li className="nav__item"><Link to="/services" className="nav__link">My Services</Link></li>
         <li className="nav__item"><Link to="/about" className="nav__link">About Me</Link></li>
         <li className="nav__item"><Link to="/work" className="nav__link">My Work</Link></li>
+        <li className="nav__item"><Link to="/contact" className="nav__link">Contact</Link></li>
       </ul>
     </nav>
   </header>
   );
 
   var footer=(
-    <footer className="footer">
+    <footer className="footer" id="contact">
     <a className="footer__link" href="mailto:jadnasser.official@gmail.com">jadnasser.official@gmail.com</a>
     <ul className="social-list">
       <li className="social-list__item">

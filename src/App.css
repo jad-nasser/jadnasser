@@ -178,14 +178,14 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
-/*.blue-gradient {
-  background-image: linear-gradient(to right, #0080ff, #3299ff);
+.blue-gradient {
+  background-image: linear-gradient(to right, #3299ff, #0080ff);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
-}*/
+}
 
 .white-gradient {
   background-image: linear-gradient(to right, white, #b2b2b2);
@@ -316,9 +316,10 @@ header {
 /*  Intro section  */
 
 .top-page {
-  background-image: linear-gradient(to bottom right, #0080ff, #3299ff);
+  /*background-image: linear-gradient(to bottom right, #0080ff, #3299ff);*/
+  background-image: url(./imgs/pexels-lumn-167699small.jpg);
   /*background-image: linear-gradient(to bottom right, #0080ff, #7ab6f1);*/
-  color: white;
+  color: var(--clr-dark);
 }
 
 .img-and-title {
@@ -336,7 +337,6 @@ header {
 
 .section__subtitle--intro {
   display: inline-block;
-  color: white;
   /*font-weight: var(--fw-bold);*/
   /* font-size: 1.5em;*/
 }

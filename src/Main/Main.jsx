@@ -32,6 +32,7 @@ function template() {
             <li className="nav__item"><a href="#services" className="nav__link">My Services</a></li>
             <li className="nav__item"><a href="#about" className="nav__link">About Me</a></li>
             <li className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
+            <li className="nav__item"><a href="#contact" className="nav__link">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -42,7 +43,7 @@ function template() {
         <div className="img-and-title">
         <img src={intro_pic} alt="Intro" className="intro__img"></img>
         <h1 className="section__title section__title--intro">
-        Hi, I am <strong className="gold-gradient">Jad</strong> <strong className="white-gradient">Nasser</strong>
+        Hi, I am <strong className="gold-gradient">Jad</strong> <strong className="blue-gradient">Nasser</strong>
         </h1>
         </div>
         <h2 className="section__subtitle section__subtitle--intro">Junior Developer & Software Engineer</h2>
@@ -143,7 +144,7 @@ function template() {
 
 
       {/* footer */}
-      <footer className="footer">
+      <footer className="footer" id="contact">
         <ul className="social-list">
           <li className="social-list__item">
             <a className="social-list__link" href="https://www.google.com">

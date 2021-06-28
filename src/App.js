@@ -28,6 +28,9 @@ function App() {
         <Route path="/work">
           <Main goTo="work" />
         </Route>
+        <Route path="/contact">
+          <Main goTo="contact" />
+        </Route>
         <Route path="/">
           <Main />
         </Route>
