@@ -8,7 +8,7 @@ class Main extends React.Component {
 
   componentDidMount() {
 
-      const navToggle = document.querySelector('.nav-toggle');
+      /*const navToggle = document.querySelector('.nav-toggle');
       const navLinks = document.querySelectorAll('.nav__link');
     
       navToggle.addEventListener('click', () => {
@@ -21,7 +21,7 @@ class Main extends React.Component {
           document.body.classList.remove('nav-open');
         });
     
-      });
+      });*/
        
       if(this.props.goTo){
         document.getElementById(this.props.goTo).scrollIntoView();
