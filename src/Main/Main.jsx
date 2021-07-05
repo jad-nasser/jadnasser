@@ -1,25 +1,17 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 
-import intro_pic from '../imgs/eduardo-dutra-k6b53YWZI9I-unsplash-crp.png';
-import about_me_pic from '../imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
+//import intro_pic from '../imgs/eduardo-dutra-k6b53YWZI9I-unsplash-crp.png';
+//import about_me_pic from '../imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
 import project1_pic from '../imgs/Rectangle 3(1).png';
 import project2_pic from '../imgs/Rectangle 3(2).png';
 import project3_pic from '../imgs/Rectangle 3(3).png';
 import project4_pic from '../imgs/Rectangle 3(4).png';
 
-/*var intro_pic=process.env.PUBLIC_URL+'/imgs/eduardo-dutra-k6b53YWZI9I-unsplash-crp.png';
-var about_me_pic=process.env.PUBLIC_URL+'/imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
-var project1_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(1).png';
-var project2_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(2).png';
-var project3_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(3).png';
-var project4_pic=process.env.PUBLIC_URL+'/imgs/Rectangle 3(4).png';*/
-
 function template() {
+
   return (
     <div className="main">
-      <div className="top-page">
-      {/*<h1>This site is still under constructions</h1>*/}
       <header>
         {/*
         <button className="nav-toggle" aria-label="toggle navigation">
@@ -40,15 +32,13 @@ function template() {
 
       {/* Intoduction */}
       <section className="intro" id="home">
-        <div className="img-and-title">
-        <img src={intro_pic} alt="Intro" className="intro__img"></img>
+        <h1>This site is still under constructions</h1>
         <h1 className="section__title section__title--intro">
-        Hi, I am <strong className="gold-gradient">Jad</strong> <strong className="blue-gradient">Nasser</strong>
+        Hi, I am <strong className="gold-gradient jad">Jad</strong> <strong className="blue-gradient">Nasser</strong>
         </h1>
-        </div>
         <h2 className="section__subtitle section__subtitle--intro">Junior Developer & Software Engineer</h2>
       </section>
-      </div>
+
 
       {/* My Services */}
       <section className="my-services" id="services">
@@ -57,27 +47,26 @@ function template() {
           <div className="service">
             <h3>Software Engineering</h3>
             <p>
-              orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-              laboris nisi ut aliquip ex ea commodo consequat.
+              Familiar with many technologies. Able to plan programs and websites using UML diagrams, and 
+              also able to write documentation and reports.
             </p>
           </div> {/* </service> */}
 
           <div className="service">
             <h3>Software Development</h3>
             <p>
-              orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-              laboris nisi ut aliquip ex ea commodo consequat.
+              Familiar with programming concepts like OOP and MVC, and with databases like MongoDB, 
+              SQL Server and MySQL. Able to write code using languages like Java, C, C++, C #, SWI-Prolog, 
+              GNU Octave, MATLAB and MASM. Able to write Unit / Integration tests.
             </p>
           </div> {/* </service> */}
 
           <div className="service">
             <h3>Full-Stack Web Development</h3>
             <p>
-              orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-              laboris nisi ut aliquip ex ea commodo consequat.
+              Able to develop both front and back ends of a website using HTML5, CSS3, jQuery, JavaScript, 
+              TypeScript, and Node.js, and using frameworks like Angular, React, and Express.js, and using 
+              databases like MongoDB, SQL Server, and MySQL. Able to write Unit / Integration / e2e tests.
             </p>
           </div> {/* </service> */}
         </div> {/* </services> */}
@@ -88,28 +77,29 @@ function template() {
 
       {/* About Me */}
       <section className="about-me" id="about">
-        <div className="about-me__title-and-body">
         <h2 className="section__title section__title--about">Who I Am</h2>
         
         {/*<p className="section__subtitle section__subtitle--about">Developer & Software Engineer</p>*/}
         <div className="about-me__body">
-          <p className="about-me__paragraph about-me__paragraph1">
-            p1orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat.
+          <p>
+            I'm a passionate, persistent junior developer and software engineer. I've graduated with a 
+            Bachelor's degree in Computer Science.
           </p>
-          <img src={about_me_pic} alt="About Me" className="about-me__img"></img>
-          <p className="about-me__paragraph about-me__paragraph2">
-            p2Forem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat.
+          <p>
+            I'm always passionate about everything I do, especially in my profession. I always love my 
+            work to be unique and excellent.
           </p>
-          <p className="about-me__paragraph about-me__paragraph3">
-            Having built a musical culture around headphones, Sony had the vision to reproduce the finest 
-            details of sound with a minimally sized component. Mobilizing Sony’s long history of analog 
-            and digital technologies for reproducing high-quality sound, we worked hard to design a line.
+          <p>
+            I'm always persistent and patient about my profession. I'm always willing to learn and learn 
+            and learn to achieve excellence. Because of this,  I've learned many skills, programming 
+            languages and frameworks by myself.
           </p>
-        </div>
+          <p>
+            I'm now excited and ready to take a new step in my career and work for the first time in a 
+            company, to get to know and meet new people and collaborate with them to reach excellent 
+            results. I always love and accept to hear any note about me and my work because that improves 
+            me more.
+          </p>
         </div>
       </section>
 
@@ -121,23 +111,27 @@ function template() {
 
         <div className="portfolio">
           {/* portfolio item 1 */}
-          <Link className="portfolio__item" to="/project-1">
+          <Link className="portfolio__item" to="/project-1" >
             <img src={project1_pic} alt="project 1" className="portfolio__img"></img>
+            <span className="hoverable">project-1</span>
           </Link>
 
           {/* portfolio item 2 */}
           <Link className="portfolio__item" to="/project-2">
             <img src={project2_pic} alt="project 2" className="portfolio__img"></img>
+            <span className="hoverable">project-2</span>
           </Link>
 
           {/* portfolio item 3 */}
           <Link className="portfolio__item" to="/project-3">
             <img src={project3_pic} alt="project 3" className="portfolio__img"></img>
+            <span className="hoverable">project-3</span>
           </Link>
 
           {/* portfolio item 4 */}
           <Link className="portfolio__item" to="/project-4">
             <img src={project4_pic} alt="project 4" className="portfolio__img"></img>
+            <span className="hoverable">project-4</span>
           </Link>
         </div>
       </section>
