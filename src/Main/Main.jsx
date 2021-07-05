@@ -113,25 +113,25 @@ function template() {
           {/* portfolio item 1 */}
           <Link className="portfolio__item" to="/project-1" >
             <img src={project1_pic} alt="project 1" className="portfolio__img"></img>
-            <span className="hoverable">project-1</span>
+            <span className="hoverable">Glasses Store Website</span>
           </Link>
 
           {/* portfolio item 2 */}
           <Link className="portfolio__item" to="/project-2">
             <img src={project2_pic} alt="project 2" className="portfolio__img"></img>
-            <span className="hoverable">project-2</span>
+            <span className="hoverable">Car Renting Website</span>
           </Link>
 
           {/* portfolio item 3 */}
           <Link className="portfolio__item" to="/project-3">
             <img src={project3_pic} alt="project 3" className="portfolio__img"></img>
-            <span className="hoverable">project-3</span>
+            <span className="hoverable">Electronics Store Website</span>
           </Link>
 
           {/* portfolio item 4 */}
           <Link className="portfolio__item" to="/project-4">
             <img src={project4_pic} alt="project 4" className="portfolio__img"></img>
-            <span className="hoverable">project-4</span>
+            <span className="hoverable">From Excel to Relational Database</span>
           </Link>
         </div>
       </section>
