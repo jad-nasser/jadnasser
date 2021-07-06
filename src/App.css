@@ -618,7 +618,7 @@ header {
 
 .footer__link {
   font-weight: var(--fw-bold);
-  font-size: 1.2rem;
+  /*font-size: 1.2rem;*/
 }
 
 .footer__link:hover,
@@ -650,7 +650,7 @@ header {
 
 .social-list__item {
   margin: 0 0.5em;
-  font-size: var(--fs-h3);
+  font-size: 1.5rem;
 }
 
 /*.social-list__link {
