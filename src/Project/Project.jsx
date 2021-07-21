@@ -141,21 +141,74 @@ function template() {
   else if(this.props.name==="project_2"){
     
     start=(
-      <section className="intro">
-      <h1 className="section__title section__title--intro">
-          The title <strong>of my project</strong>
-      </h1>
-      <p className="section__subtitle section__subtitle--intro">A short subtitle</p>
-      <img src={project_small_pic} alt="" className="intro__img"></img>
+      <section className="start">
+        <h1 className="section__title section__title--start">Project Title</h1>
+        <p className="start__paragraph">Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo 
+        molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam 
+        ipsum eius earum?. Click <a href="https://www.google.com">here</a> to view the source code.</p>
+        <img className="start__img" src={project_large_pic} alt="Project Intro"></img>
       </section>
     );
 
     body=(
-      <div className="portfolio-item-individual">
-      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
-      <img src={project_large_pic} alt=""></img>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+      <div>
+
+
+      <section className="features">
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+      </section>
+
+
+      <section className="uml">
+        <h2 className="section__title section__title--uml">UML Diagrams</h2>
+
+        <div className="uml__items">
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={project_small_pic} alt="UML Diagram"></img>
+        <span className="uml__span">UML Diagram</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={trial_pic} alt="trial"></img>
+        <span className="uml__span">trial</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={trial_pic2} alt="trial2"></img>
+        <span className="uml__span">trial2</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={project_small_pic} alt="UML Diagram"></img>
+        <span className="uml__span">UML Diagram</span>
+        </div>
+
+        </div>
+
+      </section>
+
+
       </div>
     );
 
@@ -164,21 +217,74 @@ function template() {
   else if(this.props.name==="project_3"){
     
     start=(
-      <section className="intro">
-      <h1 className="section__title section__title--intro">
-          The title <strong>of my project</strong>
-      </h1>
-      <p className="section__subtitle section__subtitle--intro">A short subtitle</p>
-      <img src={project_small_pic} alt="" className="intro__img"></img>
+      <section className="start">
+        <h1 className="section__title section__title--start">Project Title</h1>
+        <p className="start__paragraph">Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo 
+        molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam 
+        ipsum eius earum?. Click <a href="https://www.google.com">here</a> to view the source code.</p>
+        <img className="start__img" src={project_large_pic} alt="Project Intro"></img>
       </section>
     );
 
     body=(
-      <div className="portfolio-item-individual">
-      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
-      <img src={project_large_pic} alt=""></img>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+      <div>
+
+
+      <section className="features">
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+      </section>
+
+
+      <section className="uml">
+        <h2 className="section__title section__title--uml">UML Diagrams</h2>
+
+        <div className="uml__items">
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={project_small_pic} alt="UML Diagram"></img>
+        <span className="uml__span">UML Diagram</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={trial_pic} alt="trial"></img>
+        <span className="uml__span">trial</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={trial_pic2} alt="trial2"></img>
+        <span className="uml__span">trial2</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={project_small_pic} alt="UML Diagram"></img>
+        <span className="uml__span">UML Diagram</span>
+        </div>
+
+        </div>
+
+      </section>
+
+
       </div>
     );
 
@@ -186,22 +292,75 @@ function template() {
 
   else {
     
-    start=(
-      <section className="intro">
-      <h1 className="section__title section__title--intro">
-          The title <strong>of my project</strong>
-      </h1>
-      <p className="section__subtitle section__subtitle--intro">A short subtitle</p>
-      <img src={project_small_pic} alt="" className="intro__img"></img>
+ start=(
+      <section className="start">
+        <h1 className="section__title section__title--start">Project Title</h1>
+        <p className="start__paragraph">Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo 
+        molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam 
+        ipsum eius earum?. Click <a href="https://www.google.com">here</a> to view the source code.</p>
+        <img className="start__img" src={project_large_pic} alt="Project Intro"></img>
       </section>
     );
 
     body=(
-      <div className="portfolio-item-individual">
-      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
-      <img src={project_large_pic} alt=""></img>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-      <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+      <div>
+
+
+      <section className="features">
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+        <div className="feature">
+          <h2 className="feature__text">Enter fearure text here</h2>
+          <img className="feature__img" src={project_small_pic} alt="Feature text"></img>
+        </div>
+
+      </section>
+
+
+      <section className="uml">
+        <h2 className="section__title section__title--uml">UML Diagrams</h2>
+
+        <div className="uml__items">
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={project_small_pic} alt="UML Diagram"></img>
+        <span className="uml__span">UML Diagram</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={trial_pic} alt="trial"></img>
+        <span className="uml__span">trial</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={trial_pic2} alt="trial2"></img>
+        <span className="uml__span">trial2</span>
+        </div>
+
+        <div className="uml__item" tabIndex="0">
+        <img className="uml__img" src={project_small_pic} alt="UML Diagram"></img>
+        <span className="uml__span">UML Diagram</span>
+        </div>
+
+        </div>
+
+      </section>
+
+
       </div>
     );
 
