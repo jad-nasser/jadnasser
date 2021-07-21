@@ -77,7 +77,6 @@ class Project extends React.Component {
     //adding click event for the close button of the image view
     close.addEventListener('click',()=>{
       body.style.overflow="visible"
-      img_view.style.animationDuration="0.3s";
       img_view.style.animationName="zoom-out";
     });
 
@@ -86,7 +85,6 @@ class Project extends React.Component {
     img_view.addEventListener('animationend',()=>{
       var style=window.getComputedStyle(img_view);
       if(style.getPropertyValue('animation-name') === 'zoom-out'){
-        img_view.style.animationDuration="0.6s";
         img_view.style.display="none";
       }
     });
