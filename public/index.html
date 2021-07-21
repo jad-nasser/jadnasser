@@ -26,9 +26,37 @@
     <!-- Update these with your own fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
     rel="stylesheet">
-    
+
+
+    <script>
+
+          //a function that align the image to vertical center in the image view
+          //this function will be applied on the <body> during "onresize" event
+          function centerImage(){
+
+            //getting the DOM elements
+            var img=document.querySelector('#image-view__img');
+            var img_view=document.querySelector('#image-view');
+            var close=document.querySelector('#image-view__close');
+            var caption=document.querySelector('#image-view__caption');
+
+            //getting the heights of the dom elements
+            var img_height=img.clientHeight;
+            var img_view_height=img_view.clientHeight;
+            var caption_height=caption.clientHeight;
+            var close_height=close.clientHeight;
+
+            //calculating and adding the needed margin to make the image in the vertical center 
+            var margin=(img_view_height - (img_height + caption_height + close_height + ( close_height / 2) + 3 ) ) / 2;
+            if(margin < 0) margin = 0;
+            img.style.marginTop=margin+"px";
+          }
+
+    </script>
+
+
   </head>
-  <body>
+  <body onresize="centerImage()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

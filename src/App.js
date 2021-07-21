@@ -31,6 +31,9 @@ function App() {
         <Route path="/contact">
           <Main goTo="contact" />
         </Route>
+        <Route path="/home">
+          <Main goTo="home" />
+        </Route>
         <Route path="/">
           <Main />
         </Route>

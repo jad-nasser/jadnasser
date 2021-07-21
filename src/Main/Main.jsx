@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 //import intro_pic from '../imgs/eduardo-dutra-k6b53YWZI9I-unsplash-crp.png';
 //import about_me_pic from '../imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
 import project1_pic from '../imgs/Rectangle 3(1).png';
-import project2_pic from '../imgs/Rectangle 3(2).png';
-import project3_pic from '../imgs/Rectangle 3(3).png';
+import project2_pic from '../imgs/pexels-lumn-167699.jpg';
+import project3_pic from '../imgs/eduardo-dutra-k6b53YWZI9I-unsplash@2x.png';
 import project4_pic from '../imgs/Rectangle 3(4).png';
 
 function template() {
@@ -113,7 +113,7 @@ function template() {
           {/* portfolio item 1 */}
           <Link className="portfolio__item" to="/project-1" >
             <img src={project1_pic} alt="project 1" className="portfolio__img"></img>
-            <span className="hoverable">Glasses Store Website</span>
+            <span className="hoverable">Sunglasses Store Website</span>
           </Link>
 
           {/* portfolio item 2 */}
