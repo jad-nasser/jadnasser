@@ -1,7 +1,8 @@
-import './App.css';
-import {HashRouter as Router, Switch, Route} from 'react-router-dom';
-import Project from './Project';
-import Main from './Main';
+import "./App.css";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import Project from "./Project";
+import SunglassesOnlineStore from "./Project/SunglassesOnlineStore/SunglassesOnlineStore";
+import Main from "./Main";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         <Route path="/project-2">
           <Project name="project_2" />
         </Route>
-        <Route path="/project-3">
-          <Project name="project_3" />
+        <Route path="/sunglasses-online-store">
+          <SunglassesOnlineStore />
         </Route>
         <Route path="/project-4">
           <Project name="project_4" />

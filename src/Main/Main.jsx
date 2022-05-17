@@ -123,9 +123,9 @@ function template() {
           </Link>
 
           {/* portfolio item 3 */}
-          <Link className="portfolio__item" to="/project-3">
+          <Link className="portfolio__item" to="/sunglasses-online-store">
             <img src={project3_pic} alt="project 3" className="portfolio__img"></img>
-            <span className="hoverable">Electronics Store Website</span>
+            <span className="hoverable">Sunglasses Online Store</span>
           </Link>
 
           {/* portfolio item 4 */}

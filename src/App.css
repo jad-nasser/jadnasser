@@ -447,7 +447,8 @@ header {
   }
 }
 
-.about-me {
+.about-me,
+.blue-gradient-background {
   background: linear-gradient(
     90deg,
     #0f5fff,
