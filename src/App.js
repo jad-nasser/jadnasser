@@ -2,6 +2,7 @@ import "./App.css";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Project from "./Project";
 import SunglassesOnlineStore from "./Project/SunglassesOnlineStore/SunglassesOnlineStore";
+import FromExcelToRelationalDatabaseConverter from "./Project/FromExcelToRelationalDatabaseConverter/FromExcelToRelationalDatabaseConverter";
 import Main from "./Main";
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
         <Route path="/sunglasses-online-store">
           <SunglassesOnlineStore />
         </Route>
-        <Route path="/project-4">
-          <Project name="project_4" />
+        <Route path="/from-excel-to-relational-database-converter">
+          <FromExcelToRelationalDatabaseConverter />
         </Route>
         <Route path="/services">
           <Main goTo="services" />

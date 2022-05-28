@@ -1,73 +1,14 @@
 import "../Project.css";
 import React, { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
 import images from "./images/images";
+import Navbar from "../../Navbar/Navbar";
+import Footer from "../../Footer/Footer";
 
 const SunglassesOnlineStore = () => {
   const topPage = useRef(null);
   useEffect(() => {
     topPage.current.scrollIntoView();
   }, []);
-
-  //navigation bar
-  const navigation = (
-    <header id="top">
-      <nav className="nav">
-        <ul className="nav__list">
-          <li className="nav__item">
-            <Link to="/home" className="nav__link">
-              Home
-            </Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/services" className="nav__link">
-              My Services
-            </Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/about" className="nav__link">
-              About Me
-            </Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/work" className="nav__link">
-              My Work
-            </Link>
-          </li>
-          <li className="nav__item">
-            <Link to="/contact" className="nav__link">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  );
-
-  //footer
-  const footer = (
-    <footer className="footer" id="contact">
-      <ul className="social-list">
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://www.google.com">
-            <i className="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li className="social-list__item">
-          <a className="social-list__link" href="https://www.google.com">
-            <i className="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
-      <a className="footer__link" href="mailto:jadnasser.official@gmail.com">
-        jadnasser.official@gmail.com
-      </a>
-      <div className="address-and-phone">
-        <p className="address">Hamra Street, Beirut, Lebanon</p>
-        <p className="phone">+961 81 747098</p>
-      </div>
-    </footer>
-  );
 
   //start part that contains the project title and the starting paragraphs and image
   const start = (
@@ -79,6 +20,9 @@ const SunglassesOnlineStore = () => {
         This is my first personal project website, and it takes the most time
         among the other personal projects to be done because I've learned the
         foundations of the full-stack web development while doing this project.
+        This project uses <strong>MVC</strong> architecture and{" "}
+        <strong>REST API</strong> strategy, and it is built using{" "}
+        <strong> MERN</strong> stack web development.
       </p>
       <p className="start__paragraph">
         This project provides online sunglasses shopping. The seller can add and
@@ -103,13 +47,6 @@ const SunglassesOnlineStore = () => {
       <h2 className="section__title section__title--technologies-used">
         Technologies used
       </h2>
-      <p className="technologies-used__paragraph">
-        This project uses <strong>MVC</strong> architecture and{" "}
-        <strong>REST API</strong> strategy, and it is built using{" "}
-        <strong>MERN</strong> stack web development (<strong>M</strong>ongoDB-
-        <strong>E</strong>xpressJS-<strong>R</strong>eactJS-<strong>N</strong>
-        odeJS).
-      </p>
       <div className="server-client-container">
         <div className="server-client">
           <h3 className="server-client__text">Server Side Dependencies</h3>
@@ -305,11 +242,11 @@ const SunglassesOnlineStore = () => {
   return (
     <>
       <div ref={topPage}></div>
-      {navigation}
+      <Navbar />
       {start}
       {technologiesUsed}
       {features}
-      {footer}
+      <Footer />
     </>
   );
 };

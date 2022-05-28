@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import Footer from "../Footer/Footer";
 
 //import intro_pic from '../imgs/eduardo-dutra-k6b53YWZI9I-unsplash-crp.png';
 //import about_me_pic from '../imgs/eduardo-dutra-Kqjc3vvgl1k-unsplash.png';
@@ -13,11 +14,6 @@ function template() {
   return (
     <div className="main">
       <header>
-        {/*
-        <button className="nav-toggle" aria-label="toggle navigation">
-          <span className="hamburger"></span>
-        </button>
-        */}
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item"><a href="#home" className="nav__link">Home</a></li>
@@ -129,34 +125,16 @@ function template() {
           </Link>
 
           {/* portfolio item 4 */}
-          <Link className="portfolio__item" to="/project-4">
+          <Link className="portfolio__item" to="/from-excel-to-relational-database-converter">
             <img src={project4_pic} alt="project 4" className="portfolio__img"></img>
-            <span className="hoverable">From Excel to Relational Database</span>
+            <span className="hoverable">From Excel to Relational Database Converter</span>
           </Link>
         </div>
       </section>
 
 
       {/* footer */}
-      <footer className="footer" id="contact">
-        <ul className="social-list">
-          <li className="social-list__item">
-            <a className="social-list__link" href="https://www.google.com">
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li className="social-list__item">
-            <a className="social-list__link" href="https://www.google.com">
-              <i className="fab fa-github"></i>
-            </a>
-          </li>
-        </ul>
-        <a className="footer__link" href="mailto:jadnasser.official@gmail.com">jadnasser.official@gmail.com</a>
-        <div className="address-and-phone">
-          <p className="address">Hamra Street, Beirut, Lebanon</p>
-          <p className="phone">+961 81 747098</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
