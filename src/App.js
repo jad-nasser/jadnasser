@@ -3,6 +3,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Project from "./Project";
 import SunglassesOnlineStore from "./Project/SunglassesOnlineStore/SunglassesOnlineStore";
 import FromExcelToRelationalDatabaseConverter from "./Project/FromExcelToRelationalDatabaseConverter/FromExcelToRelationalDatabaseConverter";
+import FreeLibrary from "./Project/FreeLibrary/FreeLibrary";
 import Main from "./Main";
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
         <Route path="/project-1">
           <Project name="project_1" />
         </Route>
-        <Route path="/project-2">
-          <Project name="project_2" />
+        <Route path="/free-library">
+          <FreeLibrary />
         </Route>
         <Route path="/sunglasses-online-store">
           <SunglassesOnlineStore />
