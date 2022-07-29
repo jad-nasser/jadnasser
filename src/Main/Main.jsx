@@ -107,27 +107,27 @@ function template() {
 
         <div className="portfolio">
           {/* portfolio item 1 */}
-          <Link className="portfolio__item" to="/project-1" >
+          <Link className="portfolio__item" to="/free-images" >
             <img src={project1_pic} alt="project 1" className="portfolio__img"></img>
-            <span className="hoverable">Sunglasses Store Website</span>
+            <span className="hoverable">Free Images Website</span>
           </Link>
 
           {/* portfolio item 2 */}
           <Link className="portfolio__item" to="/free-library">
             <img src={project2_pic} alt="project 2" className="portfolio__img"></img>
-            <span className="hoverable">Free Library</span>
+            <span className="hoverable">Free Library Website</span>
           </Link>
 
           {/* portfolio item 3 */}
           <Link className="portfolio__item" to="/sunglasses-online-store">
             <img src={project3_pic} alt="project 3" className="portfolio__img"></img>
-            <span className="hoverable">Sunglasses Online Store</span>
+            <span className="hoverable">Sunglasses Online Store Website</span>
           </Link>
 
           {/* portfolio item 4 */}
           <Link className="portfolio__item" to="/from-excel-to-relational-database-converter">
             <img src={project4_pic} alt="project 4" className="portfolio__img"></img>
-            <span className="hoverable">From Excel to Relational Database Converter</span>
+            <span className="hoverable">From Excel to Relational Database Converter Program</span>
           </Link>
         </div>
       </section>

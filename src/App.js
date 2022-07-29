@@ -1,17 +1,17 @@
 import "./App.css";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
-import Project from "./Project";
 import SunglassesOnlineStore from "./Project/SunglassesOnlineStore/SunglassesOnlineStore";
 import FromExcelToRelationalDatabaseConverter from "./Project/FromExcelToRelationalDatabaseConverter/FromExcelToRelationalDatabaseConverter";
 import FreeLibrary from "./Project/FreeLibrary/FreeLibrary";
 import Main from "./Main";
+import FreeImages from "./Project/FreeImages/FreeImages";
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/project-1">
-          <Project name="project_1" />
+        <Route path="/free-images">
+          <FreeImages />
         </Route>
         <Route path="/free-library">
           <FreeLibrary />
