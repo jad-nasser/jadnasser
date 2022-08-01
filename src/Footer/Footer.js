@@ -5,7 +5,10 @@ const Footer = () => {
     <footer className="footer" id="contact">
       <ul className="social-list">
         <li className="social-list__item">
-          <a className="social-list__link" href="https://www.google.com">
+          <a
+            className="social-list__link"
+            href="https://linkedin.com/in/jad-nasser-349436247"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
         </li>
