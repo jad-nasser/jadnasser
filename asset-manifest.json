@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/jadnasser/static/css/main.918d8582.css",
+    "main.css": "/jadnasser/static/css/main.94ad083b.css",
     "main.js": "/jadnasser/static/js/main.586c645f.js",
     "static/js/787.6d95a74c.chunk.js": "/jadnasser/static/js/787.6d95a74c.chunk.js",
-    "static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.png": "/jadnasser/static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.8faf10369dac1bf6335d.png",
     "static/media/home-page-large.png": "/jadnasser/static/media/home-page-large.8115050925ac89b72734.png",
     "static/media/theme-changing.png": "/jadnasser/static/media/theme-changing.68f2161f0e9c401b5ff3.png",
+    "static/media/christopher-gower-m_HRfLhgABo-unsplash.png": "/jadnasser/static/media/christopher-gower-m_HRfLhgABo-unsplash.dc25456cc867a4518213.png",
     "static/media/view-image.png": "/jadnasser/static/media/view-image.bbc3c6a22dff3536b949.png",
     "static/media/cover-photo-left.jpg": "/jadnasser/static/media/cover-photo-left.3d1d60bac0766ceeaa4c.jpg",
     "static/media/home-page.png": "/jadnasser/static/media/home-page.e9c50fad5cd03274fabf.png",
@@ -35,12 +35,12 @@
     "static/media/responsive2.png": "/jadnasser/static/media/responsive2.7e4a25cb29a197b1251a.png",
     "static/media/app-start.png": "/jadnasser/static/media/app-start.2b5fc0c5c5468eea39ff.png",
     "index.html": "/jadnasser/index.html",
-    "main.918d8582.css.map": "/jadnasser/static/css/main.918d8582.css.map",
+    "main.94ad083b.css.map": "/jadnasser/static/css/main.94ad083b.css.map",
     "main.586c645f.js.map": "/jadnasser/static/js/main.586c645f.js.map",
     "787.6d95a74c.chunk.js.map": "/jadnasser/static/js/787.6d95a74c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.918d8582.css",
+    "static/css/main.94ad083b.css",
     "static/js/main.586c645f.js"
   ]
 }
