@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jadnasser/static/css/main.30f95821.css",
+    "main.css": "/jadnasser/static/css/main.85d02577.css",
     "main.js": "/jadnasser/static/js/main.586c645f.js",
     "static/js/787.6d95a74c.chunk.js": "/jadnasser/static/js/787.6d95a74c.chunk.js",
     "static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.png": "/jadnasser/static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.8faf10369dac1bf6335d.png",
@@ -35,12 +35,12 @@
     "static/media/responsive2.png": "/jadnasser/static/media/responsive2.7e4a25cb29a197b1251a.png",
     "static/media/app-start.png": "/jadnasser/static/media/app-start.2b5fc0c5c5468eea39ff.png",
     "index.html": "/jadnasser/index.html",
-    "main.30f95821.css.map": "/jadnasser/static/css/main.30f95821.css.map",
+    "main.85d02577.css.map": "/jadnasser/static/css/main.85d02577.css.map",
     "main.586c645f.js.map": "/jadnasser/static/js/main.586c645f.js.map",
     "787.6d95a74c.chunk.js.map": "/jadnasser/static/js/787.6d95a74c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30f95821.css",
+    "static/css/main.85d02577.css",
     "static/js/main.586c645f.js"
   ]
 }
