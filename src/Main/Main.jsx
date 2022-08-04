@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 
-import freeImagesPic from "../Project/FreeImages/images/home-page-large.png";
+import freeImagesPic from "../Project/FreeImages/images/home-page-large.jpg";
 import freeLibraryPic from "../Project/FreeLibrary/images/home-page.png";
-import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.png";
+import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.jpg";
 import fromExcelToRelationalDatabasePic from "../Project/FromExcelToRelationalDatabaseConverter/images/database-diagram.png";
 
 function template() {

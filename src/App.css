@@ -79,9 +79,8 @@ strong {
   color: var(--clr-light);
   text-decoration: none;
   cursor: pointer;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-size: var(--fs-nav);
+  font-weight: 600;
   transition: transform 200ms ease-in-out;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -260,7 +259,7 @@ header {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(./imgs/christopher-gower-m_HRfLhgABo-unsplash.png);
+  background-image: url(./imgs/christopher-gower-m_HRfLhgABo-unsplash@2x.jpg);
   background-size: cover;
   color: var(--clr-light);
   text-align: center;

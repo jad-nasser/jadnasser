@@ -8,12 +8,17 @@ const Footer = () => {
           <a
             className="social-list__link"
             href="https://linkedin.com/in/jad-nasser-349436247"
+            aria-label="LinkedIn"
           >
             <i className="fab fa-linkedin"></i>
           </a>
         </li>
         <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com/jad-nasser">
+          <a
+            className="social-list__link"
+            href="https://github.com/jad-nasser"
+            aria-label="GitHub"
+          >
             <i className="fab fa-github"></i>
           </a>
         </li>

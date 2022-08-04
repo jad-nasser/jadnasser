@@ -4,15 +4,15 @@ import accountSettings from "./account-settings.png";
 import addItem from "./AddItem.png";
 import cart from "./cart.png";
 import easySearch from "./easy-search.png";
-import sortSelect from "./sort-select.png";
-import homePage from "./home-page.png";
+import sortSelect from "./sort-select.jpg";
+import homePage from "./home-page.jpg";
 import itemsAdvancedSearch from "./items-advanced-search.png";
 import items from "./items.png";
 import myOrders from "./my-orders.png";
 import ordersAdvancedSearch from "./orders-advanced-search.png";
 import orders from "./orders.png";
 import strongValidation from "./strong-validation.png";
-import viewItem from "./view-item.png";
+import viewItem from "./view-item.jpg";
 const images = {
   responsive1,
   responsive2,
