@@ -1,6 +1,6 @@
-import databaseDiagram from "./database-diagram.png";
-import gui from "./app-start.png";
-import resultFile from "./result-file.png";
+import databaseDiagram from "./database-diagram.webp";
+import gui from "./app-start.webp";
+import resultFile from "./result-file.webp";
 const images = {
   databaseDiagram,
   gui,

@@ -1,12 +1,12 @@
-import homePageLarge from "./home-page-large.jpg";
-import homePageSmall from "./home-page-small.jpg";
-import strongValidation from "./strong-validation.png";
-import accountSettings from "./account-settings.png";
-import themeChanging from "./theme-changing.jpg";
-import editImage from "./edit-image.png";
-import easySearch from "./easy-search.jpg";
-import viewImage from "./view-image.jpg";
-import addImage from "./add-image.png";
+import homePageLarge from "./home-page-large.webp";
+import homePageSmall from "./home-page-small.webp";
+import strongValidation from "./strong-validation.webp";
+import accountSettings from "./account-settings.webp";
+import themeChanging from "./theme-changing.webp";
+import editImage from "./edit-image.webp";
+import easySearch from "./easy-search.webp";
+import viewImage from "./view-image.webp";
+import addImage from "./add-image.webp";
 const images = {
   homePageLarge,
   homePageSmall,
