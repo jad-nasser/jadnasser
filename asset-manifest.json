@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jadnasser/static/css/main.65a3d054.css",
-    "main.js": "/jadnasser/static/js/main.c7136c32.js",
+    "main.css": "/jadnasser/static/css/main.07fbd2d8.css",
+    "main.js": "/jadnasser/static/js/main.504f60ea.js",
     "static/js/787.6d95a74c.chunk.js": "/jadnasser/static/js/787.6d95a74c.chunk.js",
     "static/media/home-page-large.jpg": "/jadnasser/static/media/home-page-large.dcfd8077d24722dd9a9e.jpg",
     "static/media/view-image.jpg": "/jadnasser/static/media/view-image.d3324afd06662a8c5e47.jpg",
@@ -38,12 +38,12 @@
     "static/media/view-book.png": "/jadnasser/static/media/view-book.cd0c2ccbc94fe7b3a19a.png",
     "static/media/responsive2.png": "/jadnasser/static/media/responsive2.7e4a25cb29a197b1251a.png",
     "index.html": "/jadnasser/index.html",
-    "main.65a3d054.css.map": "/jadnasser/static/css/main.65a3d054.css.map",
-    "main.c7136c32.js.map": "/jadnasser/static/js/main.c7136c32.js.map",
+    "main.07fbd2d8.css.map": "/jadnasser/static/css/main.07fbd2d8.css.map",
+    "main.504f60ea.js.map": "/jadnasser/static/js/main.504f60ea.js.map",
     "787.6d95a74c.chunk.js.map": "/jadnasser/static/js/787.6d95a74c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a3d054.css",
-    "static/js/main.c7136c32.js"
+    "static/css/main.07fbd2d8.css",
+    "static/js/main.504f60ea.js"
   ]
 }
