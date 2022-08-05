@@ -31,6 +31,8 @@ const FreeImages = () => {
         className="start__img"
         src={images.homePageLarge}
         alt="Free Images home page"
+        width="1345"
+        height="654"
       ></img>
     </section>
   );
