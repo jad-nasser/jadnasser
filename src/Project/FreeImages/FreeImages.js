@@ -29,10 +29,10 @@ const FreeImages = () => {
       </p>
       <img
         className="start__img"
-        src={images.homePageLarge}
+        src={images.homePageLarge.src}
         alt="Free Images home page"
-        width="1345"
-        height="654"
+        width={images.homePageLarge.width}
+        height={images.homePageLarge.height}
       ></img>
     </section>
   );
@@ -104,12 +104,16 @@ const FreeImages = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.homePageLarge}
+            src={images.homePageLarge.src}
+            width={images.homePageLarge.width}
+            height={images.homePageLarge.height}
             alt="large screen size home page"
           ></img>
           <img
             className="feature__img"
-            src={images.homePageSmall}
+            src={images.homePageSmall.src}
+            width={images.homePageSmall.width}
+            height={images.homePageSmall.height}
             alt="small screen home page"
           ></img>
         </div>
@@ -118,7 +122,9 @@ const FreeImages = () => {
           <h3 className="feature__text">Strong validation system</h3>
           <img
             className="feature__img"
-            src={images.strongValidation}
+            src={images.strongValidation.src}
+            width={images.strongValidation.width}
+            height={images.strongValidation.height}
             alt="sign up page with some inputs not entered properly"
           ></img>
         </div>
@@ -127,7 +133,9 @@ const FreeImages = () => {
           <h3 className="feature__text">Theme changing powered by Redux</h3>
           <img
             className="feature__img"
-            src={images.themeChanging}
+            src={images.themeChanging.src}
+            width={images.themeChanging.width}
+            height={images.themeChanging.height}
             alt="theme changing"
           ></img>
         </div>
@@ -141,7 +149,9 @@ const FreeImages = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.easySearch}
+            src={images.easySearch.src}
+            width={images.easySearch.width}
+            height={images.easySearch.height}
             alt="easy search"
           ></img>
         </div>
@@ -153,7 +163,9 @@ const FreeImages = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.viewImage}
+            src={images.viewImage.src}
+            width={images.viewImage.width}
+            height={images.viewImage.height}
             alt="view page"
           ></img>
         </div>
@@ -164,7 +176,9 @@ const FreeImages = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.addImage}
+            src={images.addImage.src}
+            width={images.addImage.width}
+            height={images.addImage.height}
             alt="add page"
           ></img>
         </div>
@@ -175,7 +189,9 @@ const FreeImages = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.editImage}
+            src={images.editImage.src}
+            width={images.editImage.width}
+            height={images.editImage.height}
             alt="edit page"
           ></img>
         </div>
@@ -186,7 +202,9 @@ const FreeImages = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.accountSettings}
+            src={images.accountSettings.src}
+            width={images.accountSettings.width}
+            height={images.accountSettings.height}
             alt="account-settings page"
           ></img>
         </div>
