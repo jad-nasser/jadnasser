@@ -27,11 +27,11 @@ const SunglassesOnlineStore = () => {
       <p className="start__paragraph">
         This project provides online sunglasses shopping. The seller can add and
         edit sunglasses, and the users can order sunglasses, and the seller can
-        manage orders. Click{" "}
+        manage orders. You can check out the{" "}
         <a href="https://github.com/jad-nasser/sunglasses-online-store.git">
-          here
+          repository
         </a>{" "}
-        to view the source code.
+        of that project for more details.
       </p>
       <img
         className="start__img"

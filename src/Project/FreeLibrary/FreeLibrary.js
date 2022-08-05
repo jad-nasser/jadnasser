@@ -25,9 +25,10 @@ const FreeLibrary = () => {
       </p>
       <p className="start__paragraph">
         This project provides free library. The publishers can add, edit, and
-        delete book items, and the users can download books for free. Click{" "}
-        <a href="https://github.com/jad-nasser/free-library.git">here</a> to
-        view the source code.
+        delete book items, and the users can download books for free. You can
+        check out the{" "}
+        <a href="https://github.com/jad-nasser/free-library.git">repository</a>{" "}
+        of that project for more details.
       </p>
       <img
         className="start__img"

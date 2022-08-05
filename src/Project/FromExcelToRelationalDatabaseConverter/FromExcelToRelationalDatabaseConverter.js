@@ -28,11 +28,11 @@ const FromExcelToRelationalDatabaseConverter = () => {
         then returning a file that contains SQL Server queries ready to be
         executed in a Microsoft SQL Server database to generates the 2NF
         relational database of the input Excel file with less data repetition.
-        Click{" "}
+        You can check out the{" "}
         <a href="https://github.com/jad-nasser/from-excel-to-relational-database-converter.git">
-          here
+          repository
         </a>{" "}
-        to view the source code.
+        of that project for more details.
       </p>
       <img
         className="start__img"

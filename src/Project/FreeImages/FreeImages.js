@@ -23,9 +23,9 @@ const FreeImages = () => {
       <p className="start__paragraph">
         This website provides free images viewing and downloading. The signed in
         users can add, edit, and delete image items, and the non signed in users
-        can view and download images for free. Click{" "}
-        <a href="https://github.com/jad-nasser/free-images.git">here</a> to view
-        the source code.
+        can view and download images for free. You can check out the{" "}
+        <a href="https://github.com/jad-nasser/free-images.git">repository</a>{" "}
+        of that project for more details.
       </p>
       <img
         className="start__img"
