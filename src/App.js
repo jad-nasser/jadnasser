@@ -30,11 +30,6 @@ function App() {
             path="/from-excel-to-relational-database-converter"
             element={<FromExcelToRelationalDatabaseConverter />}
           />
-          <Route path="/services" element={<Main goTo="services" />} />
-          <Route path="/about" element={<Main goTo="about" />} />
-          <Route path="/work" element={<Main goTo="work" />} />
-          <Route path="/contact" element={<Main goTo="contact" />} />
-          <Route path="/home" element={<Main goTo="home" />} />
           <Route path="/" element={<Main />} />
         </Routes>
       </Router>

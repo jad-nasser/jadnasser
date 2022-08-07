@@ -1,35 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
-    <header id="top">
+    <header>
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <Link to="/home" className="nav__link">
+            <HashLink to="/#home" className="nav__link">
               Home
-            </Link>
+            </HashLink>
           </li>
           <li className="nav__item">
-            <Link to="/services" className="nav__link">
+            <HashLink to="/#services" className="nav__link">
               My Services
-            </Link>
+            </HashLink>
           </li>
           <li className="nav__item">
-            <Link to="/about" className="nav__link">
+            <HashLink to="/#about" className="nav__link">
               About Me
-            </Link>
+            </HashLink>
           </li>
           <li className="nav__item">
-            <Link to="/work" className="nav__link">
+            <HashLink to="/#work" className="nav__link">
               My Work
-            </Link>
+            </HashLink>
           </li>
           <li className="nav__item">
-            <Link to="/contact" className="nav__link">
+            <HashLink to="/#contact" className="nav__link">
               Contact
-            </Link>
+            </HashLink>
           </li>
         </ul>
       </nav>
