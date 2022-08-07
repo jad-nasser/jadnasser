@@ -13,6 +13,7 @@ const FromExcelToRelationalDatabaseConverter = lazy(() =>
 );
 const FreeLibrary = lazy(() => import("./Project/FreeLibrary/FreeLibrary"));
 const FreeImages = lazy(() => import("./Project/FreeImages/FreeImages"));
+const Footer = lazy(() => import("./Footer/Footer"));
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           <Route path="/" element={<Main />} />
         </Routes>
       </Router>
+      <Suspense fallback={<div></div>}>
+        <Footer />
+      </Suspense>
     </Suspense>
   );
 }
