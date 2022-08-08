@@ -33,9 +33,7 @@ function App() {
           <Route path="/" element={<Main />} />
         </Routes>
       </Router>
-      <Suspense fallback={<div></div>}>
-        <Footer />
-      </Suspense>
+      <Footer />
     </Suspense>
   );
 }
