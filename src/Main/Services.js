@@ -1,3 +1,5 @@
+import { HashLink } from "react-router-hash-link";
+
 const Services = () => {
   return (
     <section className="my-services" id="services">
@@ -32,9 +34,9 @@ const Services = () => {
         {/* </service> */}
       </div>{" "}
       {/* </services> */}
-      <a href="#work" className="btn">
+      <HashLink to="/#work" className="btn">
         My Work
-      </a>
+      </HashLink>
     </section>
   );
 };
