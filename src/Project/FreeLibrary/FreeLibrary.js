@@ -2,6 +2,7 @@ import "../Project.css";
 import React, { useEffect, useRef } from "react";
 import images from "./images/images";
 import Navbar from "../../Navbar/Navbar";
+import Footer from "../../Footer/Footer";
 
 const FreeLibrary = () => {
   const topPage = useRef(null);
@@ -207,6 +208,7 @@ const FreeLibrary = () => {
       {start}
       {technologiesUsed}
       {features}
+      <Footer />
     </>
   );
 };
