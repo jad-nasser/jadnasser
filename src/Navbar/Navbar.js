@@ -27,7 +27,7 @@ const Navbar = () => {
             </HashLink>
           </li>
           <li className="nav__item">
-            <HashLink to="/#contact" className="nav__link">
+            <HashLink to="#contact" className="nav__link">
               Contact
             </HashLink>
           </li>

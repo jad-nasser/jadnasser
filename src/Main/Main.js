@@ -5,6 +5,7 @@ import freeImagesPic from "../Project/FreeImages/images/home-page-large.jpg";
 import freeLibraryPic from "../Project/FreeLibrary/images/home-page.png";
 import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.jpg";
 import fromExcelToRelationalDatabasePic from "../Project/FromExcelToRelationalDatabaseConverter/images/database-diagram.png";
+import Footer from "../Footer/Footer";
 
 function Main() {
   return (
@@ -144,6 +145,7 @@ function Main() {
           </Link>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
