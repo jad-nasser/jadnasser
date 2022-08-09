@@ -1,8 +1,8 @@
 import "./App.css";
 import { Suspense, lazy } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Main from "./Main";
 
-const Main = lazy(() => import("./Main"));
 const SunglassesOnlineStore = lazy(() =>
   import("./Project/SunglassesOnlineStore/SunglassesOnlineStore")
 );
