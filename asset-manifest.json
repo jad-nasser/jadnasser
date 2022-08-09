@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jadnasser/static/css/main.e838a411.css",
+    "main.css": "/jadnasser/static/css/main.26b65256.css",
     "main.js": "/jadnasser/static/js/main.06e5d03f.js",
     "static/js/997.521a9425.chunk.js": "/jadnasser/static/js/997.521a9425.chunk.js",
     "static/css/838.07aac230.chunk.css": "/jadnasser/static/css/838.07aac230.chunk.css",
@@ -13,6 +13,7 @@
     "static/js/863.7d525551.chunk.js": "/jadnasser/static/js/863.7d525551.chunk.js",
     "static/js/787.b2ff3c2b.chunk.js": "/jadnasser/static/js/787.b2ff3c2b.chunk.js",
     "static/media/home-page-large.jpg": "/jadnasser/static/media/home-page-large.dcfd8077d24722dd9a9e.jpg",
+    "static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.webp": "/jadnasser/static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.f8a57f04862d8cf54bec.webp",
     "static/media/view-image.jpg": "/jadnasser/static/media/view-image.d3324afd06662a8c5e47.jpg",
     "static/media/theme-changing.jpg": "/jadnasser/static/media/theme-changing.6ad7d896dee4283483c2.jpg",
     "static/media/easy-search.png": "/jadnasser/static/media/easy-search.f47e4ed8ccda4c63fa15.png",
@@ -21,9 +22,8 @@
     "static/media/home-page.jpg": "/jadnasser/static/media/home-page.859496e685e0d9ba2538.jpg",
     "static/media/home-page-small.jpg": "/jadnasser/static/media/home-page-small.5cc48da47940adc80c5e.jpg",
     "static/media/easy-search.jpg": "/jadnasser/static/media/easy-search.f6e19cb75509a5e902ce.jpg",
-    "static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.webp": "/jadnasser/static/media/christopher-gower-m_HRfLhgABo-unsplash@2x.3ee3ac7e0ff0639b2df0.webp",
-    "static/media/cover-photo-left.webp": "/jadnasser/static/media/cover-photo-left.5421e2a3cc800b267a9a.webp",
     "static/media/view-item.jpg": "/jadnasser/static/media/view-item.26a50e59ed03c343acd9.jpg",
+    "static/media/cover-photo-left.webp": "/jadnasser/static/media/cover-photo-left.47419f10eb8eaab15d38.webp",
     "static/media/database-diagram.png": "/jadnasser/static/media/database-diagram.dac27f94dbadf29a3e35.png",
     "static/media/items.png": "/jadnasser/static/media/items.aeacb5ba927b06365d84.png",
     "static/media/cart.png": "/jadnasser/static/media/cart.e8487aaee9b7ff964202.png",
@@ -47,7 +47,7 @@
     "static/media/view-book.png": "/jadnasser/static/media/view-book.cd0c2ccbc94fe7b3a19a.png",
     "static/media/responsive2.png": "/jadnasser/static/media/responsive2.7e4a25cb29a197b1251a.png",
     "index.html": "/jadnasser/index.html",
-    "main.e838a411.css.map": "/jadnasser/static/css/main.e838a411.css.map",
+    "main.26b65256.css.map": "/jadnasser/static/css/main.26b65256.css.map",
     "main.06e5d03f.js.map": "/jadnasser/static/js/main.06e5d03f.js.map",
     "997.521a9425.chunk.js.map": "/jadnasser/static/js/997.521a9425.chunk.js.map",
     "838.07aac230.chunk.css.map": "/jadnasser/static/css/838.07aac230.chunk.css.map",
@@ -61,7 +61,7 @@
     "787.b2ff3c2b.chunk.js.map": "/jadnasser/static/js/787.b2ff3c2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e838a411.css",
+    "static/css/main.26b65256.css",
     "static/js/main.06e5d03f.js"
   ]
 }
