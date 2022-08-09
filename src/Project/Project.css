@@ -7,6 +7,11 @@
   padding-bottom: 6em;
 }
 
+.section__title--features,
+.section__title--technologies-used {
+  font-weight: var(--fw-bold);
+}
+
 .section__title--start,
 .section__title--technologies-used {
   margin-bottom: 1.2em;
@@ -17,11 +22,6 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-
-.start__paragraph,
-.technologies-used__paragraph {
-  text-align: left;
 }
 
 .feature,
@@ -35,11 +35,15 @@
   padding-top: 7em;
 }
 
-/*technologies-used section*/
-
-.technologies-used__paragraph {
-  margin-bottom: 0;
+.start__paragraph {
+  text-align: left;
 }
+
+.section__title--start {
+  font-weight: var(--fw-reg);
+}
+
+/*technologies-used section*/
 
 .server-client {
   position: relative;
@@ -92,6 +96,7 @@
 
 .feature__text {
   margin-bottom: 0.7em;
+  line-height: 1.4;
 }
 
 .feature__img {

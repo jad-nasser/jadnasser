@@ -36,7 +36,9 @@ const FromExcelToRelationalDatabaseConverter = () => {
       </p>
       <img
         className="start__img"
-        src={images.databaseDiagram}
+        width={images.databaseDiagram.width}
+        height={images.databaseDiagram.height}
+        src={images.databaseDiagram.src}
         alt="Database diagram"
       ></img>
     </section>
@@ -67,7 +69,13 @@ const FromExcelToRelationalDatabaseConverter = () => {
       <div className="features-container">
         <div className="feature">
           <h3 className="feature__text">Simple GUI</h3>
-          <img className="feature__img" src={images.gui} alt="App GUI"></img>
+          <img
+            className="feature__img"
+            width={images.gui.width}
+            height={images.gui.height}
+            src={images.gui.src}
+            alt="App GUI"
+          ></img>
         </div>
         <div className="feature">
           <h3 className="feature__text">
@@ -77,7 +85,9 @@ const FromExcelToRelationalDatabaseConverter = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.resultFile}
+            width={images.resultFile.width}
+            height={images.resultFile.height}
+            src={images.resultFile.src}
             alt="SQL queries file"
           ></img>
         </div>

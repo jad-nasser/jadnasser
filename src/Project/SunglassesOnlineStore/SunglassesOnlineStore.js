@@ -35,7 +35,9 @@ const SunglassesOnlineStore = () => {
       </p>
       <img
         className="start__img"
-        src={images.homePage}
+        width={images.homePage.width}
+        height={images.homePage.height}
+        src={images.homePage.src}
         alt="Sunglasses online store home page"
       ></img>
     </section>
@@ -101,12 +103,16 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.responsive1}
+            width={images.responsive1.width}
+            height={images.responsive1.height}
+            src={images.responsive1.src}
             alt="sign in page for big screen size"
           ></img>
           <img
             className="feature__img"
-            src={images.responsive2}
+            width={images.responsive2.width}
+            height={images.responsive2.height}
+            src={images.responsive2.src}
             alt="sign in page for small screen size"
           ></img>
         </div>
@@ -115,7 +121,9 @@ const SunglassesOnlineStore = () => {
           <h3 className="feature__text">Strong validation system</h3>
           <img
             className="feature__img"
-            src={images.strongValidation}
+            width={images.strongValidation.width}
+            height={images.strongValidation.height}
+            src={images.strongValidation.src}
             alt="sign up page with some inputs not entered properly"
           ></img>
         </div>
@@ -126,7 +134,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.sortSelect}
+            width={images.sortSelect.width}
+            height={images.sortSelect.height}
+            src={images.sortSelect.src}
             alt="sort selection"
           ></img>
         </div>
@@ -137,7 +147,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.myOrders}
+            width={images.myOrders.width}
+            height={images.myOrders.height}
+            src={images.myOrders.src}
             alt="customer orders page"
           ></img>
         </div>
@@ -148,7 +160,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.accountSettings}
+            width={images.accountSettings.width}
+            height={images.accountSettings.height}
+            src={images.accountSettings.src}
             alt="customer account settings page"
           ></img>
         </div>
@@ -159,7 +173,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.cart}
+            width={images.cart.width}
+            height={images.cart.height}
+            src={images.cart.src}
             alt="shopping cart page and credit card inputs"
           ></img>
         </div>
@@ -170,7 +186,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.items}
+            width={images.items.width}
+            height={images.items.height}
+            src={images.items.src}
             alt="seller items page"
           ></img>
         </div>
@@ -183,7 +201,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.itemsAdvancedSearch}
+            width={images.itemsAdvancedSearch.width}
+            height={images.itemsAdvancedSearch.height}
+            src={images.itemsAdvancedSearch.src}
             alt="seller items advanced search page"
           ></img>
         </div>
@@ -194,7 +214,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.orders}
+            width={images.orders.width}
+            height={images.orders.height}
+            src={images.orders.src}
             alt="seller orders page"
           ></img>
         </div>
@@ -207,7 +229,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.ordersAdvancedSearch}
+            width={images.ordersAdvancedSearch.width}
+            height={images.ordersAdvancedSearch.height}
+            src={images.ordersAdvancedSearch.src}
             alt="seller orders advanced search page"
           ></img>
         </div>
@@ -219,7 +243,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.easySearch}
+            width={images.easySearch.width}
+            height={images.easySearch.height}
+            src={images.easySearch.src}
             alt="customer home page with some searched sunglasses items"
           ></img>
         </div>
@@ -230,7 +256,9 @@ const SunglassesOnlineStore = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.addItem}
+            width={images.addItem.width}
+            height={images.addItem.height}
+            src={images.addItem.src}
             alt="seller add item page"
           ></img>
         </div>

@@ -32,7 +32,9 @@ const FreeLibrary = () => {
       </p>
       <img
         className="start__img"
-        src={images.homePage}
+        width={images.homePage.width}
+        height={images.homePage.height}
+        src={images.homePage.src}
         alt="Free Library home page"
       ></img>
     </section>
@@ -102,12 +104,16 @@ const FreeLibrary = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.largeScreen}
+            width={images.largeScreen.width}
+            height={images.largeScreen.height}
+            src={images.largeScreen.src}
             alt="sign in page for big screen size"
           ></img>
           <img
             className="feature__img"
-            src={images.smallScreen}
+            width={images.smallScreen.width}
+            height={images.smallScreen.height}
+            src={images.smallScreen.src}
             alt="sign in page for small screen size"
           ></img>
         </div>
@@ -116,7 +122,9 @@ const FreeLibrary = () => {
           <h3 className="feature__text">Strong validation system</h3>
           <img
             className="feature__img"
-            src={images.strongValidation}
+            width={images.strongValidation.width}
+            height={images.strongValidation.height}
+            src={images.strongValidation.src}
             alt="sign up page with some inputs not entered properly"
           ></img>
         </div>
@@ -125,7 +133,9 @@ const FreeLibrary = () => {
           <h3 className="feature__text">Theme changing powered by Redux</h3>
           <img
             className="feature__img"
-            src={images.themeChanging}
+            width={images.themeChanging.width}
+            height={images.themeChanging.height}
+            src={images.themeChanging.src}
             alt="theme changing"
           ></img>
         </div>
@@ -137,7 +147,9 @@ const FreeLibrary = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.easySearch}
+            width={images.easySearch.width}
+            height={images.easySearch.height}
+            src={images.easySearch.src}
             alt="easy search"
           ></img>
         </div>
@@ -149,7 +161,9 @@ const FreeLibrary = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.advancedSearch}
+            width={images.advancedSearch.width}
+            height={images.advancedSearch.height}
+            src={images.advancedSearch.src}
             alt="advanced search page"
           ></img>
         </div>
@@ -161,7 +175,9 @@ const FreeLibrary = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.viewBook}
+            width={images.viewBook.width}
+            height={images.viewBook.height}
+            src={images.viewBook.src}
             alt="view-book page"
           ></img>
         </div>
@@ -170,7 +186,9 @@ const FreeLibrary = () => {
           <h3 className="feature__text">The publisher can add a book easily</h3>
           <img
             className="feature__img"
-            src={images.addBook}
+            width={images.addBook.width}
+            height={images.addBook.height}
+            src={images.addBook.src}
             alt="publisher add-book page"
           ></img>
         </div>
@@ -181,7 +199,9 @@ const FreeLibrary = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.editBook}
+            width={images.editBook.width}
+            height={images.editBook.height}
+            src={images.editBook.src}
             alt="publisher edit book page"
           ></img>
         </div>
@@ -192,7 +212,9 @@ const FreeLibrary = () => {
           </h3>
           <img
             className="feature__img"
-            src={images.accountSettings}
+            width={images.accountSettings.width}
+            height={images.accountSettings.height}
+            src={images.accountSettings.src}
             alt="publisher account settings page"
           ></img>
         </div>
