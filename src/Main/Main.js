@@ -1,9 +1,9 @@
 import Navbar from "../Navbar/Navbar";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
-import freeImagesPic from "../Project/FreeImages/images/home-page-large.jpg";
+import freeImagesPic from "../Project/FreeImages/images/home-page-large.webp";
 import freeLibraryPic from "../Project/FreeLibrary/images/home-page.png";
-import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.jpg";
+import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.webp";
 import fromExcelToRelationalDatabasePic from "../Project/FromExcelToRelationalDatabaseConverter/images/database-diagram.png";
 import Footer from "../Footer/Footer";
 
