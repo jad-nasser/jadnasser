@@ -6,6 +6,7 @@ import freeLibraryPic from "../Project/FreeLibrary/images/home-page.png";
 import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.jpg";
 import fromExcelToRelationalDatabasePic from "../Project/FromExcelToRelationalDatabaseConverter/images/database-diagram.png";
 import Footer from "../Footer/Footer";
+import LazyImg from "../LazyImg/LazyImg";
 
 function Main() {
   return (
@@ -101,31 +102,37 @@ function Main() {
         <div className="portfolio">
           {/* portfolio item 1 */}
           <Link className="portfolio__item" to="/free-images">
-            <img
+            <LazyImg
               src={freeImagesPic}
               alt="Free Images Website"
               className="portfolio__img"
-            ></img>
+              width={250}
+              height={250}
+            ></LazyImg>
             <span className="hoverable">Free Images Website</span>
           </Link>
 
           {/* portfolio item 2 */}
           <Link className="portfolio__item" to="/free-library">
-            <img
+            <LazyImg
               src={freeLibraryPic}
               alt="Free Library Website"
               className="portfolio__img"
-            ></img>
+              width={250}
+              height={250}
+            ></LazyImg>
             <span className="hoverable">Free Library Website</span>
           </Link>
 
           {/* portfolio item 3 */}
           <Link className="portfolio__item" to="/sunglasses-online-store">
-            <img
+            <LazyImg
               src={sunglassesOnlineStorePic}
               alt="Sunglasses Online Store Website"
               className="portfolio__img"
-            ></img>
+              width={250}
+              height={250}
+            ></LazyImg>
             <span className="hoverable">Sunglasses Online Store Website</span>
           </Link>
 
@@ -134,11 +141,13 @@ function Main() {
             className="portfolio__item"
             to="/from-excel-to-relational-database-converter"
           >
-            <img
+            <LazyImg
               src={fromExcelToRelationalDatabasePic}
               alt="From Excel to Relational Database Converter Program"
               className="portfolio__img"
-            ></img>
+              width={250}
+              height={250}
+            ></LazyImg>
             <span className="hoverable">
               From Excel to Relational Database Converter Program
             </span>
