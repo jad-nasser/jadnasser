@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import images from "./images/images";
 import Navbar from "../../Navbar/Navbar";
 import Footer from "../../Footer/Footer";
+import LazyImg from "../../LazyImg/LazyImg";
 
 const FreeImages = () => {
   const topPage = useRef(null);
@@ -33,7 +34,7 @@ const FreeImages = () => {
         alt="Free Images home page"
         width={images.homePageLarge.width}
         height={images.homePageLarge.height}
-      ></img>
+      />
     </section>
   );
 
@@ -102,42 +103,46 @@ const FreeImages = () => {
           <h3 className="feature__text">
             A website that works with various screen sizes
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.homePageLarge.blur}
             className="feature__img"
             src={images.homePageLarge.src}
             width={images.homePageLarge.width}
             height={images.homePageLarge.height}
             alt="large screen size home page"
-          ></img>
-          <img
+          />
+          <LazyImg
+            placeholder={images.homePageSmall.blur}
             className="feature__img"
             src={images.homePageSmall.src}
             width={images.homePageSmall.width}
             height={images.homePageSmall.height}
             alt="small screen home page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">Strong validation system</h3>
-          <img
+          <LazyImg
+            placeholder={images.strongValidation.blur}
             className="feature__img"
             src={images.strongValidation.src}
             width={images.strongValidation.width}
             height={images.strongValidation.height}
             alt="sign up page with some inputs not entered properly"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">Theme changing powered by Redux</h3>
-          <img
+          <LazyImg
+            placeholder={images.themeChanging.blur}
             className="feature__img"
             src={images.themeChanging.src}
             width={images.themeChanging.width}
             height={images.themeChanging.height}
             alt="theme changing"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -147,13 +152,14 @@ const FreeImages = () => {
             alphabetical order, reversed alphabetical order, or most downloaded
             images.
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.easySearch.blur}
             className="feature__img"
             src={images.easySearch.src}
             width={images.easySearch.width}
             height={images.easySearch.height}
             alt="easy search"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -161,52 +167,56 @@ const FreeImages = () => {
             The user can easily download an image by just selecting the image
             and clicking the download button
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.viewImage.blur}
             className="feature__img"
             src={images.viewImage.src}
             width={images.viewImage.width}
             height={images.viewImage.height}
             alt="view page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The signed in user can add a new image easily
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.addImage.blur}
             className="feature__img"
             src={images.addImage.src}
             width={images.addImage.width}
             height={images.addImage.height}
             alt="add page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The signed in user can view, edit, and delete any image he/she added
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.editImage.blur}
             className="feature__img"
             src={images.editImage.src}
             width={images.editImage.width}
             height={images.editImage.height}
             alt="edit page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The signed in user can edit his/her account
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.accountSettings.blur}
             className="feature__img"
             src={images.accountSettings.src}
             width={images.accountSettings.width}
             height={images.accountSettings.height}
             alt="account-settings page"
-          ></img>
+          />
         </div>
       </div>
     </section>

@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import images from "./images/images";
 import Navbar from "../../Navbar/Navbar";
 import Footer from "../../Footer/Footer";
+import LazyImg from "../../LazyImg/LazyImg";
 
 const SunglassesOnlineStore = () => {
   const topPage = useRef(null);
@@ -39,7 +40,7 @@ const SunglassesOnlineStore = () => {
         height={images.homePage.height}
         src={images.homePage.src}
         alt="Sunglasses online store home page"
-      ></img>
+      />
     </section>
   );
 
@@ -101,96 +102,104 @@ const SunglassesOnlineStore = () => {
           <h3 className="feature__text">
             A website that works with various screen sizes
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.responsive1.blur}
             className="feature__img"
             width={images.responsive1.width}
             height={images.responsive1.height}
             src={images.responsive1.src}
             alt="sign in page for big screen size"
-          ></img>
-          <img
+          />
+          <LazyImg
+            placeholder={images.responsive2.blur}
             className="feature__img"
             width={images.responsive2.width}
             height={images.responsive2.height}
             src={images.responsive2.src}
             alt="sign in page for small screen size"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">Strong validation system</h3>
-          <img
+          <LazyImg
+            placeholder={images.strongValidation.blur}
             className="feature__img"
             width={images.strongValidation.width}
             height={images.strongValidation.height}
             src={images.strongValidation.src}
             alt="sign up page with some inputs not entered properly"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             User can select sorting for sunglasses items
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.sortSelect.blur}
             className="feature__img"
             width={images.sortSelect.width}
             height={images.sortSelect.height}
             src={images.sortSelect.src}
             alt="sort selection"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The customer can see and track his/her orders
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.myOrders.blur}
             className="feature__img"
             width={images.myOrders.width}
             height={images.myOrders.height}
             src={images.myOrders.src}
             alt="customer orders page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The customer can edit his/her account
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.accountSettings.blur}
             className="feature__img"
             width={images.accountSettings.width}
             height={images.accountSettings.height}
             src={images.accountSettings.src}
             alt="customer account settings page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The customer can proceed orders in the shopping cart page easily
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.cart.blur}
             className="feature__img"
             width={images.cart.width}
             height={images.cart.height}
             src={images.cart.src}
             alt="shopping cart page and credit card inputs"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             Seller can view and edit multiple sunglasses items at once
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.items.blur}
             className="feature__img"
             width={images.items.width}
             height={images.items.height}
             src={images.items.src}
             alt="seller items page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -199,26 +208,28 @@ const SunglassesOnlineStore = () => {
             specific items so that the seller can edit these items or view them
             also this page allows the seller to select sorting for items
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.itemsAdvancedSearch.blur}
             className="feature__img"
             width={images.itemsAdvancedSearch.width}
             height={images.itemsAdvancedSearch.height}
             src={images.itemsAdvancedSearch.src}
             alt="seller items advanced search page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             Seller can view and edit multiple sunglasses orders at once
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.orders.blur}
             className="feature__img"
             width={images.orders.width}
             height={images.orders.height}
             src={images.orders.src}
             alt="seller orders page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -227,13 +238,14 @@ const SunglassesOnlineStore = () => {
             specific orders so that the seller can edit these orders or view
             them also this page allows the seller to select sorting for orders
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.ordersAdvancedSearch.blur}
             className="feature__img"
             width={images.ordersAdvancedSearch.width}
             height={images.ordersAdvancedSearch.height}
             src={images.ordersAdvancedSearch.src}
             alt="seller orders advanced search page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -241,26 +253,28 @@ const SunglassesOnlineStore = () => {
             Smart search for the seller and customers pages even the advanced
             search seller pages
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.easySearch.blur}
             className="feature__img"
             width={images.easySearch.width}
             height={images.easySearch.height}
             src={images.easySearch.src}
             alt="customer home page with some searched sunglasses items"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The seller can create a sunglasses item easily
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.addItem.blur}
             className="feature__img"
             width={images.addItem.width}
             height={images.addItem.height}
             src={images.addItem.src}
             alt="seller add item page"
-          ></img>
+          />
         </div>
       </div>
     </section>

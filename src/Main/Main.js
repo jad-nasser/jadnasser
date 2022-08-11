@@ -5,6 +5,10 @@ import freeImagesPic from "../Project/FreeImages/images/home-page-large.jpg";
 import freeLibraryPic from "../Project/FreeLibrary/images/home-page.png";
 import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.jpg";
 import fromExcelToRelationalDatabasePic from "../Project/FromExcelToRelationalDatabaseConverter/images/database-diagram.png";
+import freeImagesBlurPic from "../Project/FreeImages/images/blur/home-page-large.webp";
+import freeLibraryBlurPic from "../Project/FreeLibrary/images/blur/home-page.webp";
+import sunglassesOnlineStoreBlurPic from "../Project/SunglassesOnlineStore/images/blur/home-page.webp";
+import fromExcelToRelationalDatabaseBlurPic from "../Project/FromExcelToRelationalDatabaseConverter/images/blur/database-diagram.webp";
 import Footer from "../Footer/Footer";
 import LazyImg from "../LazyImg/LazyImg";
 
@@ -103,6 +107,7 @@ function Main() {
           {/* portfolio item 1 */}
           <Link className="portfolio__item" to="/free-images">
             <LazyImg
+              placeholder={freeImagesBlurPic}
               src={freeImagesPic}
               alt="Free Images Website"
               className="portfolio__img"
@@ -115,6 +120,7 @@ function Main() {
           {/* portfolio item 2 */}
           <Link className="portfolio__item" to="/free-library">
             <LazyImg
+              placeholder={freeLibraryBlurPic}
               src={freeLibraryPic}
               alt="Free Library Website"
               className="portfolio__img"
@@ -127,6 +133,7 @@ function Main() {
           {/* portfolio item 3 */}
           <Link className="portfolio__item" to="/sunglasses-online-store">
             <LazyImg
+              placeholder={sunglassesOnlineStoreBlurPic}
               src={sunglassesOnlineStorePic}
               alt="Sunglasses Online Store Website"
               className="portfolio__img"
@@ -142,6 +149,7 @@ function Main() {
             to="/from-excel-to-relational-database-converter"
           >
             <LazyImg
+              placeholder={fromExcelToRelationalDatabaseBlurPic}
               src={fromExcelToRelationalDatabasePic}
               alt="From Excel to Relational Database Converter Program"
               className="portfolio__img"

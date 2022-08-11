@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import images from "./images/images";
 import Navbar from "../../Navbar/Navbar";
 import Footer from "../../Footer/Footer";
+import LazyImg from "../../LazyImg/LazyImg";
 
 const FreeLibrary = () => {
   const topPage = useRef(null);
@@ -36,7 +37,7 @@ const FreeLibrary = () => {
         height={images.homePage.height}
         src={images.homePage.src}
         alt="Free Library home page"
-      ></img>
+      />
     </section>
   );
 
@@ -102,42 +103,46 @@ const FreeLibrary = () => {
           <h3 className="feature__text">
             A website that works with various screen sizes
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.largeScreen.blur}
             className="feature__img"
             width={images.largeScreen.width}
             height={images.largeScreen.height}
             src={images.largeScreen.src}
             alt="sign in page for big screen size"
-          ></img>
-          <img
+          />
+          <LazyImg
+            placeholder={images.smallScreen.blur}
             className="feature__img"
             width={images.smallScreen.width}
             height={images.smallScreen.height}
             src={images.smallScreen.src}
             alt="sign in page for small screen size"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">Strong validation system</h3>
-          <img
+          <LazyImg
+            placeholder={images.strongValidation.blur}
             className="feature__img"
             width={images.strongValidation.width}
             height={images.strongValidation.height}
             src={images.strongValidation.src}
             alt="sign up page with some inputs not entered properly"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">Theme changing powered by Redux</h3>
-          <img
+          <LazyImg
+            placeholder={images.themeChanging.blur}
             className="feature__img"
             width={images.themeChanging.width}
             height={images.themeChanging.height}
             src={images.themeChanging.src}
             alt="theme changing"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -145,13 +150,14 @@ const FreeLibrary = () => {
             Easy search that only needs a part of a book name, also the advanced
             search page contains easy search functionality in all its inputs.
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.easySearch.blur}
             className="feature__img"
             width={images.easySearch.width}
             height={images.easySearch.height}
             src={images.easySearch.src}
             alt="easy search"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -159,13 +165,14 @@ const FreeLibrary = () => {
             Advanced search that helps the users search for specific books also
             this page allows the users to select the sorting way for the books.
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.advancedSearch.blur}
             className="feature__img"
             width={images.advancedSearch.width}
             height={images.advancedSearch.height}
             src={images.advancedSearch.src}
             alt="advanced search page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
@@ -173,50 +180,54 @@ const FreeLibrary = () => {
             The user can easily download a book by just selecting the book and
             clicking the download button
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.viewBook.blur}
             className="feature__img"
             width={images.viewBook.width}
             height={images.viewBook.height}
             src={images.viewBook.src}
             alt="view-book page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">The publisher can add a book easily</h3>
-          <img
+          <LazyImg
+            placeholder={images.addBook.blur}
             className="feature__img"
             width={images.addBook.width}
             height={images.addBook.height}
             src={images.addBook.src}
             alt="publisher add-book page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The publisher can view, edit, and delete any book he/she added
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.editBook.blur}
             className="feature__img"
             width={images.editBook.width}
             height={images.editBook.height}
             src={images.editBook.src}
             alt="publisher edit book page"
-          ></img>
+          />
         </div>
 
         <div className="feature">
           <h3 className="feature__text">
             The publisher can edit his/her account
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.accountSettings.blur}
             className="feature__img"
             width={images.accountSettings.width}
             height={images.accountSettings.height}
             src={images.accountSettings.src}
             alt="publisher account settings page"
-          ></img>
+          />
         </div>
       </div>
     </section>

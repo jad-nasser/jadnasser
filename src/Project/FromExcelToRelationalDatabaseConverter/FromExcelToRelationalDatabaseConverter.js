@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import images from "./images/images";
 import Navbar from "../../Navbar/Navbar";
 import Footer from "../../Footer/Footer";
+import LazyImg from "../../LazyImg/LazyImg";
 
 const FromExcelToRelationalDatabaseConverter = () => {
   const topPage = useRef(null);
@@ -40,7 +41,7 @@ const FromExcelToRelationalDatabaseConverter = () => {
         height={images.databaseDiagram.height}
         src={images.databaseDiagram.src}
         alt="Database diagram"
-      ></img>
+      />
     </section>
   );
 
@@ -69,13 +70,14 @@ const FromExcelToRelationalDatabaseConverter = () => {
       <div className="features-container">
         <div className="feature">
           <h3 className="feature__text">Simple GUI</h3>
-          <img
+          <LazyImg
+            placeholder={images.gui.blur}
             className="feature__img"
             width={images.gui.width}
             height={images.gui.height}
             src={images.gui.src}
             alt="App GUI"
-          ></img>
+          />
         </div>
         <div className="feature">
           <h3 className="feature__text">
@@ -83,13 +85,14 @@ const FromExcelToRelationalDatabaseConverter = () => {
             Excel file and returns the 2NF relational database as executable SQL
             Server queries file ready to be executed in an SQL Server database
           </h3>
-          <img
+          <LazyImg
+            placeholder={images.resultFile.blur}
             className="feature__img"
             width={images.resultFile.width}
             height={images.resultFile.height}
             src={images.resultFile.src}
             alt="SQL queries file"
-          ></img>
+          />
         </div>
       </div>
     </section>
