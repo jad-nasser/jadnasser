@@ -1,11 +1,6 @@
 import "./App.css";
 import { Suspense, lazy } from "react";
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 const Main = lazy(() => import("./Main"));
 const SunglassesOnlineStore = lazy(() =>
@@ -24,7 +19,6 @@ function App() {
     <Suspense fallback={<div></div>}>
       <Router>
         <Routes>
-          <Route path="*" element={<Navigate to="/" />} />
           <Route path="/free-images" element={<FreeImages />} />
           <Route path="/free-library" element={<FreeLibrary />} />
           <Route
