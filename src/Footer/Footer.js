@@ -27,8 +27,8 @@ const Footer = () => {
         jadnasser.official@gmail.com
       </a>
       <div className="address-and-phone">
-        <p className="address">Hamra Street, Beirut, Lebanon</p>
-        <p className="phone">+961 81 747098</p>
+        <div className="phone">+961 81 747098</div>
+        <div className="address">Hamra Street, Beirut, Lebanon</div>
       </div>
     </footer>
   );
