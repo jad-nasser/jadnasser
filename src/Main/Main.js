@@ -99,9 +99,6 @@ function Main() {
       {/* My Work */}
       <section className="my-work" id="work">
         <h2 className="section__title section__title--work">My Work</h2>
-        <p className="section__subtitle section__subtitle--work">
-          A selection of my range of work
-        </p>
 
         <div className="portfolio">
           {/* portfolio item 1 */}
@@ -160,6 +157,13 @@ function Main() {
               From Excel to Relational Database Converter Program
             </span>
           </Link>
+        </div>
+        <div className="my-work-paragraph-div">
+          <p className="my-work-paragraph">
+            Also this website is one of my works. You can check out the{" "}
+            <a href="https://github.com/jad-nasser/jadnasser.git">repository</a>{" "}
+            for more details.
+          </p>
         </div>
       </section>
       <Footer />
