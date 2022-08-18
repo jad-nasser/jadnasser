@@ -235,7 +235,7 @@ header {
 
 .intro {
   position: relative;
-  background: url(./imgs/cover-photo-left.webp);
+  background: url(./imgs/cover-photo-left.jpg);
   padding-top: 4.5em;
   padding-bottom: 19em;
   text-align: right;
@@ -262,7 +262,7 @@ header {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(./imgs/christopher-gower-m_HRfLhgABo-unsplash.webp);
+  background-image: url(./imgs/christopher-gower-m_HRfLhgABo-unsplash.jpg);
   background-size: cover;
   color: var(--clr-light);
   text-align: center;

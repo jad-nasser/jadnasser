@@ -5,10 +5,10 @@ import freeImagesPic from "../Project/FreeImages/images/home-page-large.jpg";
 import freeLibraryPic from "../Project/FreeLibrary/images/home-page.png";
 import sunglassesOnlineStorePic from "../Project/SunglassesOnlineStore/images/home-page.jpg";
 import fromExcelToRelationalDatabasePic from "../Project/FromExcelToRelationalDatabaseConverter/images/database-diagram.png";
-import freeImagesBlurPic from "../Project/FreeImages/images/blur/home-page-large.webp";
-import freeLibraryBlurPic from "../Project/FreeLibrary/images/blur/home-page.webp";
-import sunglassesOnlineStoreBlurPic from "../Project/SunglassesOnlineStore/images/blur/home-page.webp";
-import fromExcelToRelationalDatabaseBlurPic from "../Project/FromExcelToRelationalDatabaseConverter/images/blur/database-diagram.webp";
+import freeImagesBlurPic from "../Project/FreeImages/images/blur/home-page-large-min.jpg";
+import freeLibraryBlurPic from "../Project/FreeLibrary/images/blur/home-page-min.jpg";
+import sunglassesOnlineStoreBlurPic from "../Project/SunglassesOnlineStore/images/blur/home-page-min.jpg";
+import fromExcelToRelationalDatabaseBlurPic from "../Project/FromExcelToRelationalDatabaseConverter/images/blur/database-diagram-min.jpg";
 import Footer from "../Footer/Footer";
 import LazyImg from "../LazyImg/LazyImg";
 

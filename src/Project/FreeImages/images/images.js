@@ -7,15 +7,15 @@ import editImage from "./edit-image.png";
 import easySearch from "./easy-search.jpg";
 import viewImage from "./view-image.jpg";
 import addImage from "./add-image.png";
-import homePageLargeBlur from "./blur/home-page-large.webp";
-import homePageSmallBlur from "./blur/home-page-small.webp";
-import strongValidationBlur from "./blur/strong-validation.webp";
-import accountSettingsBlur from "./blur/account-settings.webp";
-import themeChangingBlur from "./blur/theme-changing.webp";
-import editImageBlur from "./blur/edit-image.webp";
-import easySearchBlur from "./blur/easy-search.webp";
-import viewImageBlur from "./blur/view-image.webp";
-import addImageBlur from "./blur/add-image.webp";
+import homePageLargeBlur from "./blur/home-page-large-min.jpg";
+import homePageSmallBlur from "./blur/home-page-small-min.jpg";
+import strongValidationBlur from "./blur/strong-validation-min.jpg";
+import accountSettingsBlur from "./blur/account-settings-min.jpg";
+import themeChangingBlur from "./blur/theme-changing-min.jpg";
+import editImageBlur from "./blur/edit-image-min.jpg";
+import easySearchBlur from "./blur/easy-search-min.jpg";
+import viewImageBlur from "./blur/view-image-min.jpg";
+import addImageBlur from "./blur/add-image-min.jpg";
 const images = {
   homePageLarge: {
     width: 1345,

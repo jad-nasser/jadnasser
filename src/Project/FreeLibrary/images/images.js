@@ -9,17 +9,17 @@ import easySearch from "./easy-search.png";
 import advancedSearch from "./advanced-search.png";
 import viewBook from "./view-book.png";
 import addBook from "./add-book.png";
-import homePageBlur from "./blur/home-page.webp";
-import smallScreenBlur from "./blur/sign-in-small.webp";
-import largeScreenBlur from "./blur/sign-in-large.webp";
-import strongValidationBlur from "./blur/strong-validation.webp";
-import accountSettingsBlur from "./blur/account-settings.webp";
-import themeChangingBlur from "./blur/theme-changing.webp";
-import editBookBlur from "./blur/edit-book.webp";
-import easySearchBlur from "./blur/easy-search.webp";
-import advancedSearchBlur from "./blur/advanced-search.webp";
-import viewBookBlur from "./blur/view-book.webp";
-import addBookBlur from "./blur/add-book.webp";
+import homePageBlur from "./blur/home-page-min.jpg";
+import smallScreenBlur from "./blur/sign-in-small-min.jpg";
+import largeScreenBlur from "./blur/sign-in-large-min.jpg";
+import strongValidationBlur from "./blur/strong-validation-min.jpg";
+import accountSettingsBlur from "./blur/account-settings-min.jpg";
+import themeChangingBlur from "./blur/theme-changing-min.jpg";
+import editBookBlur from "./blur/edit-book-min.jpg";
+import easySearchBlur from "./blur/easy-search-min.jpg";
+import advancedSearchBlur from "./blur/advanced-search-min.jpg";
+import viewBookBlur from "./blur/view-book-min.jpg";
+import addBookBlur from "./blur/add-book-min.jpg";
 const images = {
   homePage: { src: homePage, width: 1350, height: 661, blur: homePageBlur },
   smallScreen: {

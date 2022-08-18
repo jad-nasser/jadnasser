@@ -13,21 +13,21 @@ import ordersAdvancedSearch from "./orders-advanced-search.png";
 import orders from "./orders.png";
 import strongValidation from "./strong-validation.png";
 import viewItem from "./view-item.jpg";
-import responsive1Blur from "./blur/responsive1.webp";
-import responsive2Blur from "./blur/responsive2.webp";
-import accountSettingsBlur from "./blur/account-settings.webp";
-import addItemBlur from "./blur/AddItem.webp";
-import cartBlur from "./blur/cart.webp";
-import easySearchBlur from "./blur/easy-search.webp";
-import sortSelectBlur from "./blur/sort-select.webp";
-import homePageBlur from "./blur/home-page.webp";
-import itemsAdvancedSearchBlur from "./blur/items-advanced-search.webp";
-import itemsBlur from "./blur/items.webp";
-import myOrdersBlur from "./blur/my-orders.webp";
-import ordersAdvancedSearchBlur from "./blur/orders-advanced-search.webp";
-import ordersBlur from "./blur/orders.webp";
-import strongValidationBlur from "./blur/strong-validation.webp";
-import viewItemBlur from "./blur/view-item.webp";
+import responsive1Blur from "./blur/responsive1-min.jpg";
+import responsive2Blur from "./blur/responsive2-min.jpg";
+import accountSettingsBlur from "./blur/account-settings-min.jpg";
+import addItemBlur from "./blur/AddItem-min.jpg";
+import cartBlur from "./blur/cart-min.jpg";
+import easySearchBlur from "./blur/easy-search-min.jpg";
+import sortSelectBlur from "./blur/sort-select-min.jpg";
+import homePageBlur from "./blur/home-page-min.jpg";
+import itemsAdvancedSearchBlur from "./blur/items-advanced-search-min.jpg";
+import itemsBlur from "./blur/items-min.jpg";
+import myOrdersBlur from "./blur/my-orders-min.jpg";
+import ordersAdvancedSearchBlur from "./blur/orders-advanced-search-min.jpg";
+import ordersBlur from "./blur/orders-min.jpg";
+import strongValidationBlur from "./blur/strong-validation-min.jpg";
+import viewItemBlur from "./blur/view-item-min.jpg";
 const images = {
   responsive1: {
     src: responsive1,

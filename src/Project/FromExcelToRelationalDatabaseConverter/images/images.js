@@ -1,9 +1,9 @@
 import databaseDiagram from "./database-diagram.png";
 import gui from "./app-start.png";
 import resultFile from "./result-file.png";
-import databaseDiagramBlur from "./blur/database-diagram.webp";
-import guiBlur from "./blur/app-start.webp";
-import resultFileBlur from "./blur/result-file.webp";
+import databaseDiagramBlur from "./blur/database-diagram-min.jpg";
+import guiBlur from "./blur/app-start-min.jpg";
+import resultFileBlur from "./blur/result-file-min.jpg";
 const images = {
   databaseDiagram: {
     src: databaseDiagram,
