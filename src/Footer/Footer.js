@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer" id="contact">
       <ul className="social-list">
+        {/*
         <li className="social-list__item">
           <a
             className="social-list__link"
@@ -13,6 +14,7 @@ const Footer = () => {
             <i className="fab fa-linkedin"></i>
           </a>
         </li>
+        */}
         <li className="social-list__item">
           <a
             className="social-list__link"
