@@ -25,7 +25,7 @@ function Main() {
           <strong className="blue-gradient name">Nasser</strong>
         </h1>
         <h2 className="section__subtitle section__subtitle--intro">
-          Junior Full Stack Web Developer
+          Web Developer
         </h2>
       </section>
 
